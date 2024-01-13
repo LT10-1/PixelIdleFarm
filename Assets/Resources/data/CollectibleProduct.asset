@@ -1,0 +1,3015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c031618d7c05a1b3fa6c029d8fb45b, type: 3}
+  m_Name: "CollectibleProduct"
+  m_EditorClassIdentifier: 
+  Params:
+  - CollectibleID: 0
+    CollectibleLevel: 1
+    ProductionFactor: 1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 2
+    ProductionFactor: 1.3
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 3
+    ProductionFactor: 1.6
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 4
+    ProductionFactor: 1.7
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 5
+    ProductionFactor: 2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 7
+    ProductionFactor: 2.7
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 8
+    ProductionFactor: 3.3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 9
+    ProductionFactor: 3.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 10
+    ProductionFactor: 4
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 11
+    ProductionFactor: 4.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 12
+    ProductionFactor: 4.7
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 13
+    ProductionFactor: 5.1
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 14
+    ProductionFactor: 5.5
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 15
+    ProductionFactor: 6.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 16
+    ProductionFactor: 7
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 17
+    ProductionFactor: 7.5
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 18
+    ProductionFactor: 7.9
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 19
+    ProductionFactor: 9.1
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 0
+    CollectibleLevel: 20
+    ProductionFactor: 9.9
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 2
+    ProductionFactor: 1.2
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 3
+    ProductionFactor: 1.6
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 4
+    ProductionFactor: 1.9
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 5
+    ProductionFactor: 2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 6
+    ProductionFactor: 2.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 7
+    ProductionFactor: 2.6
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 8
+    ProductionFactor: 3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 9
+    ProductionFactor: 3.7
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 11
+    ProductionFactor: 4.2
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 12
+    ProductionFactor: 4.7
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 13
+    ProductionFactor: 5.4
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 14
+    ProductionFactor: 5.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 15
+    ProductionFactor: 6.1
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 16
+    ProductionFactor: 6.7
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 17
+    ProductionFactor: 7.2
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 18
+    ProductionFactor: 8.3
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 19
+    ProductionFactor: 9.1
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 1
+    CollectibleLevel: 20
+    ProductionFactor: 9.5
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 2
+    ProductionFactor: 1.4
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 4
+    ProductionFactor: 1.9
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 5
+    ProductionFactor: 2.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 6
+    ProductionFactor: 2.3
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 7
+    ProductionFactor: 2.8
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 8
+    ProductionFactor: 3.1
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 9
+    ProductionFactor: 3.7
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 11
+    ProductionFactor: 4.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 12
+    ProductionFactor: 4.6
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 13
+    ProductionFactor: 5.1
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 14
+    ProductionFactor: 5.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 15
+    ProductionFactor: 6.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 16
+    ProductionFactor: 6.6
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 17
+    ProductionFactor: 7.5
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 18
+    ProductionFactor: 8.2
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 19
+    ProductionFactor: 8.9
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 2
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 2
+    ProductionFactor: 1.4
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 4
+    ProductionFactor: 1.8
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 5
+    ProductionFactor: 2.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 7
+    ProductionFactor: 2.6
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 8
+    ProductionFactor: 3.1
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 9
+    ProductionFactor: 3.7
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 10
+    ProductionFactor: 4
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 11
+    ProductionFactor: 4.2
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 12
+    ProductionFactor: 4.7
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 13
+    ProductionFactor: 5
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 14
+    ProductionFactor: 5.8
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 15
+    ProductionFactor: 6.2
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 16
+    ProductionFactor: 7
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 17
+    ProductionFactor: 7.6
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 18
+    ProductionFactor: 8.1
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 19
+    ProductionFactor: 8.6
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 3
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 2
+    ProductionFactor: 1.9
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 3
+    ProductionFactor: 2.1
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 5
+    ProductionFactor: 2.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 6
+    ProductionFactor: 3
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 7
+    ProductionFactor: 3.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 8
+    ProductionFactor: 3.9
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 9
+    ProductionFactor: 4.5
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 10
+    ProductionFactor: 5
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 11
+    ProductionFactor: 5.2
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 12
+    ProductionFactor: 6.1
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 13
+    ProductionFactor: 6.9
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 14
+    ProductionFactor: 7.3
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 15
+    ProductionFactor: 8
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 16
+    ProductionFactor: 9.5
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 17
+    ProductionFactor: 10.5
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 18
+    ProductionFactor: 11.5
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 19
+    ProductionFactor: 12.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 4
+    CollectibleLevel: 20
+    ProductionFactor: 14.7
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 2
+    ProductionFactor: 1.7
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 3
+    ProductionFactor: 2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 5
+    ProductionFactor: 2.6
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 6
+    ProductionFactor: 3.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 7
+    ProductionFactor: 3.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 8
+    ProductionFactor: 3.9
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 9
+    ProductionFactor: 4.3
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 10
+    ProductionFactor: 4.9
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 11
+    ProductionFactor: 5.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 12
+    ProductionFactor: 5.9
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 13
+    ProductionFactor: 6.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 14
+    ProductionFactor: 7.6
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 15
+    ProductionFactor: 8.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 16
+    ProductionFactor: 9.5
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 17
+    ProductionFactor: 10.5
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 18
+    ProductionFactor: 11.8
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 19
+    ProductionFactor: 12.7
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 5
+    CollectibleLevel: 20
+    ProductionFactor: 14.8
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 2
+    ProductionFactor: 1.9
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 3
+    ProductionFactor: 2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 5
+    ProductionFactor: 2.6
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 6
+    ProductionFactor: 3.2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 7
+    ProductionFactor: 3.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 8
+    ProductionFactor: 3.8
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 9
+    ProductionFactor: 4.4
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 10
+    ProductionFactor: 4.7
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 11
+    ProductionFactor: 5.4
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 12
+    ProductionFactor: 5.9
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 13
+    ProductionFactor: 6.9
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 14
+    ProductionFactor: 7.5
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 15
+    ProductionFactor: 8.1
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 16
+    ProductionFactor: 9.5
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 17
+    ProductionFactor: 10
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 18
+    ProductionFactor: 11.7
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 19
+    ProductionFactor: 12.5
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 6
+    CollectibleLevel: 20
+    ProductionFactor: 15
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 7
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 7
+    CollectibleLevel: 2
+    ProductionFactor: 2.6
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 7
+    CollectibleLevel: 3
+    ProductionFactor: 3.2
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 7
+    CollectibleLevel: 4
+    ProductionFactor: 3.6
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 7
+    CollectibleLevel: 5
+    ProductionFactor: 4.2
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 7
+    CollectibleLevel: 6
+    ProductionFactor: 4.9
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 7
+    CollectibleLevel: 7
+    ProductionFactor: 5.6
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 7
+    CollectibleLevel: 8
+    ProductionFactor: 6.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 7
+    CollectibleLevel: 9
+    ProductionFactor: 7.4
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 7
+    CollectibleLevel: 10
+    ProductionFactor: 7.9
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 7
+    CollectibleLevel: 11
+    ProductionFactor: 8.9
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 7
+    CollectibleLevel: 12
+    ProductionFactor: 9.9
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 7
+    CollectibleLevel: 13
+    ProductionFactor: 10.9
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 7
+    CollectibleLevel: 14
+    ProductionFactor: 11.6
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 7
+    CollectibleLevel: 15
+    ProductionFactor: 13.2
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 7
+    CollectibleLevel: 16
+    ProductionFactor: 13.7
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 7
+    CollectibleLevel: 17
+    ProductionFactor: 15
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 7
+    CollectibleLevel: 18
+    ProductionFactor: 16.4
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 7
+    CollectibleLevel: 19
+    ProductionFactor: 18.1
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 7
+    CollectibleLevel: 20
+    ProductionFactor: 19.4
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 8
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 8
+    CollectibleLevel: 2
+    ProductionFactor: 2.7
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 8
+    CollectibleLevel: 3
+    ProductionFactor: 3
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 8
+    CollectibleLevel: 4
+    ProductionFactor: 3.7
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 8
+    CollectibleLevel: 5
+    ProductionFactor: 4.2
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 8
+    CollectibleLevel: 6
+    ProductionFactor: 4.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 8
+    CollectibleLevel: 7
+    ProductionFactor: 5.5
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 8
+    CollectibleLevel: 8
+    ProductionFactor: 6.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 8
+    CollectibleLevel: 9
+    ProductionFactor: 7.2
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 8
+    CollectibleLevel: 10
+    ProductionFactor: 8.1
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 8
+    CollectibleLevel: 11
+    ProductionFactor: 8.8
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 8
+    CollectibleLevel: 12
+    ProductionFactor: 9.6
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 8
+    CollectibleLevel: 13
+    ProductionFactor: 11
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 8
+    CollectibleLevel: 14
+    ProductionFactor: 12
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 8
+    CollectibleLevel: 15
+    ProductionFactor: 13.1
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 8
+    CollectibleLevel: 16
+    ProductionFactor: 13.7
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 8
+    CollectibleLevel: 17
+    ProductionFactor: 14.8
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 8
+    CollectibleLevel: 18
+    ProductionFactor: 16
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 8
+    CollectibleLevel: 19
+    ProductionFactor: 17.7
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 8
+    CollectibleLevel: 20
+    ProductionFactor: 19.3
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 9
+    CollectibleLevel: 1
+    ProductionFactor: 3
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 9
+    CollectibleLevel: 2
+    ProductionFactor: 3.9
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 9
+    CollectibleLevel: 3
+    ProductionFactor: 4.6
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 9
+    CollectibleLevel: 4
+    ProductionFactor: 5.5
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 9
+    CollectibleLevel: 5
+    ProductionFactor: 6.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 9
+    CollectibleLevel: 6
+    ProductionFactor: 7.4
+    PartsRequired: 7
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 9
+    CollectibleLevel: 7
+    ProductionFactor: 8
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 9
+    CollectibleLevel: 8
+    ProductionFactor: 9.1
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 9
+    CollectibleLevel: 9
+    ProductionFactor: 10.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 9
+    CollectibleLevel: 10
+    ProductionFactor: 11.1
+    PartsRequired: 25
+    SecondaryEffectFactor: 2
+  - CollectibleID: 9
+    CollectibleLevel: 11
+    ProductionFactor: 12.6
+    PartsRequired: 30
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 9
+    CollectibleLevel: 12
+    ProductionFactor: 13.7
+    PartsRequired: 40
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 9
+    CollectibleLevel: 13
+    ProductionFactor: 15.2
+    PartsRequired: 50
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 9
+    CollectibleLevel: 14
+    ProductionFactor: 16.8
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 9
+    CollectibleLevel: 15
+    ProductionFactor: 18.2
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 9
+    CollectibleLevel: 16
+    ProductionFactor: 20.1
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 9
+    CollectibleLevel: 17
+    ProductionFactor: 23.6
+    PartsRequired: 125
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 9
+    CollectibleLevel: 18
+    ProductionFactor: 25
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 9
+    CollectibleLevel: 19
+    ProductionFactor: 27.3
+    PartsRequired: 175
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 9
+    CollectibleLevel: 20
+    ProductionFactor: 29.2
+    PartsRequired: 200
+    SecondaryEffectFactor: 3
+  - CollectibleID: 10
+    CollectibleLevel: 1
+    ProductionFactor: 1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 2
+    ProductionFactor: 1.2
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 4
+    ProductionFactor: 1.9
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 5
+    ProductionFactor: 2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 7
+    ProductionFactor: 2.7
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 8
+    ProductionFactor: 3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 9
+    ProductionFactor: 3.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 11
+    ProductionFactor: 4.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 12
+    ProductionFactor: 4.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 13
+    ProductionFactor: 5.1
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 14
+    ProductionFactor: 5.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 15
+    ProductionFactor: 6.2
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 16
+    ProductionFactor: 6.6
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 17
+    ProductionFactor: 7.4
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 18
+    ProductionFactor: 8.3
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 19
+    ProductionFactor: 8.6
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 10
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 2
+    ProductionFactor: 1.2
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 4
+    ProductionFactor: 1.7
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 5
+    ProductionFactor: 2.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 6
+    ProductionFactor: 2.3
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 7
+    ProductionFactor: 2.8
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 8
+    ProductionFactor: 3.3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 9
+    ProductionFactor: 3.7
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 10
+    ProductionFactor: 4
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 11
+    ProductionFactor: 4.4
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 12
+    ProductionFactor: 4.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 13
+    ProductionFactor: 5.2
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 14
+    ProductionFactor: 5.5
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 15
+    ProductionFactor: 6
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 16
+    ProductionFactor: 6.7
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 17
+    ProductionFactor: 7.3
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 18
+    ProductionFactor: 8
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 19
+    ProductionFactor: 8.6
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 11
+    CollectibleLevel: 20
+    ProductionFactor: 9.7
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 2
+    ProductionFactor: 1.3
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 4
+    ProductionFactor: 1.8
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 5
+    ProductionFactor: 2.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 7
+    ProductionFactor: 2.6
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 8
+    ProductionFactor: 3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 9
+    ProductionFactor: 3.4
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 11
+    ProductionFactor: 4.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 12
+    ProductionFactor: 4.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 13
+    ProductionFactor: 5
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 14
+    ProductionFactor: 5.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 15
+    ProductionFactor: 6.3
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 16
+    ProductionFactor: 6.8
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 17
+    ProductionFactor: 7.6
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 18
+    ProductionFactor: 7.9
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 19
+    ProductionFactor: 9
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 12
+    CollectibleLevel: 20
+    ProductionFactor: 9.9
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 2
+    ProductionFactor: 1.2
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 4
+    ProductionFactor: 1.7
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 5
+    ProductionFactor: 2.2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 7
+    ProductionFactor: 2.8
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 8
+    ProductionFactor: 3.3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 9
+    ProductionFactor: 3.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 11
+    ProductionFactor: 4.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 12
+    ProductionFactor: 4.7
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 13
+    ProductionFactor: 5.2
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 14
+    ProductionFactor: 5.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 15
+    ProductionFactor: 6.2
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 16
+    ProductionFactor: 6.9
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 17
+    ProductionFactor: 7.3
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 18
+    ProductionFactor: 8.1
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 19
+    ProductionFactor: 8.9
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 13
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 2
+    ProductionFactor: 1.9
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 3
+    ProductionFactor: 2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 5
+    ProductionFactor: 2.7
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 6
+    ProductionFactor: 3
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 7
+    ProductionFactor: 3.6
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 8
+    ProductionFactor: 3.9
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 9
+    ProductionFactor: 4.3
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 10
+    ProductionFactor: 4.9
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 11
+    ProductionFactor: 5.4
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 12
+    ProductionFactor: 6
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 13
+    ProductionFactor: 6.5
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 14
+    ProductionFactor: 7.7
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 15
+    ProductionFactor: 8.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 16
+    ProductionFactor: 9
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 17
+    ProductionFactor: 10.5
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 18
+    ProductionFactor: 11.3
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 19
+    ProductionFactor: 13.1
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 14
+    CollectibleLevel: 20
+    ProductionFactor: 15
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 2
+    ProductionFactor: 1.9
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 3
+    ProductionFactor: 2.1
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 5
+    ProductionFactor: 2.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 6
+    ProductionFactor: 3.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 7
+    ProductionFactor: 3.6
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 8
+    ProductionFactor: 4.1
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 9
+    ProductionFactor: 4.3
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 10
+    ProductionFactor: 4.8
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 11
+    ProductionFactor: 5.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 12
+    ProductionFactor: 6
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 13
+    ProductionFactor: 6.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 14
+    ProductionFactor: 7.3
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 15
+    ProductionFactor: 8
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 16
+    ProductionFactor: 9.4
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 17
+    ProductionFactor: 10.1
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 18
+    ProductionFactor: 11.3
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 19
+    ProductionFactor: 12.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 15
+    CollectibleLevel: 20
+    ProductionFactor: 14.8
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 2
+    ProductionFactor: 1.8
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 3
+    ProductionFactor: 2.2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 4
+    ProductionFactor: 2.4
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 5
+    ProductionFactor: 2.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 6
+    ProductionFactor: 3
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 7
+    ProductionFactor: 3.7
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 8
+    ProductionFactor: 3.9
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 9
+    ProductionFactor: 4.2
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 10
+    ProductionFactor: 4.7
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 11
+    ProductionFactor: 5.2
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 12
+    ProductionFactor: 5.9
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 13
+    ProductionFactor: 6.9
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 14
+    ProductionFactor: 7.2
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 15
+    ProductionFactor: 8.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 16
+    ProductionFactor: 9.5
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 17
+    ProductionFactor: 10.6
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 18
+    ProductionFactor: 11.2
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 19
+    ProductionFactor: 12.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 16
+    CollectibleLevel: 20
+    ProductionFactor: 14.8
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 17
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 17
+    CollectibleLevel: 2
+    ProductionFactor: 2.6
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 17
+    CollectibleLevel: 3
+    ProductionFactor: 3.1
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 17
+    CollectibleLevel: 4
+    ProductionFactor: 3.8
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 17
+    CollectibleLevel: 5
+    ProductionFactor: 4.4
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 17
+    CollectibleLevel: 6
+    ProductionFactor: 4.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 17
+    CollectibleLevel: 7
+    ProductionFactor: 5.7
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 17
+    CollectibleLevel: 8
+    ProductionFactor: 6.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 17
+    CollectibleLevel: 9
+    ProductionFactor: 7
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 17
+    CollectibleLevel: 10
+    ProductionFactor: 7.9
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 17
+    CollectibleLevel: 11
+    ProductionFactor: 8.7
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 17
+    CollectibleLevel: 12
+    ProductionFactor: 9.8
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 17
+    CollectibleLevel: 13
+    ProductionFactor: 10.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 17
+    CollectibleLevel: 14
+    ProductionFactor: 12
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 17
+    CollectibleLevel: 15
+    ProductionFactor: 13.1
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 17
+    CollectibleLevel: 16
+    ProductionFactor: 14.2
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 17
+    CollectibleLevel: 17
+    ProductionFactor: 15.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 17
+    CollectibleLevel: 18
+    ProductionFactor: 16.2
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 17
+    CollectibleLevel: 19
+    ProductionFactor: 17.7
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 17
+    CollectibleLevel: 20
+    ProductionFactor: 19.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 18
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 18
+    CollectibleLevel: 2
+    ProductionFactor: 2.6
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 18
+    CollectibleLevel: 3
+    ProductionFactor: 3.1
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 18
+    CollectibleLevel: 4
+    ProductionFactor: 3.8
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 18
+    CollectibleLevel: 5
+    ProductionFactor: 4.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 18
+    CollectibleLevel: 6
+    ProductionFactor: 5
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 18
+    CollectibleLevel: 7
+    ProductionFactor: 5.8
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 18
+    CollectibleLevel: 8
+    ProductionFactor: 6.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 18
+    CollectibleLevel: 9
+    ProductionFactor: 7.1
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 18
+    CollectibleLevel: 10
+    ProductionFactor: 7.8
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 18
+    CollectibleLevel: 11
+    ProductionFactor: 8.7
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 18
+    CollectibleLevel: 12
+    ProductionFactor: 9.8
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 18
+    CollectibleLevel: 13
+    ProductionFactor: 10.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 18
+    CollectibleLevel: 14
+    ProductionFactor: 11.6
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 18
+    CollectibleLevel: 15
+    ProductionFactor: 12.7
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 18
+    CollectibleLevel: 16
+    ProductionFactor: 13.8
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 18
+    CollectibleLevel: 17
+    ProductionFactor: 15
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 18
+    CollectibleLevel: 18
+    ProductionFactor: 16
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 18
+    CollectibleLevel: 19
+    ProductionFactor: 17.8
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 18
+    CollectibleLevel: 20
+    ProductionFactor: 19.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 19
+    CollectibleLevel: 1
+    ProductionFactor: 3
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 19
+    CollectibleLevel: 2
+    ProductionFactor: 3.9
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 19
+    CollectibleLevel: 3
+    ProductionFactor: 4.8
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 19
+    CollectibleLevel: 4
+    ProductionFactor: 5.4
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 19
+    CollectibleLevel: 5
+    ProductionFactor: 6.3
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 19
+    CollectibleLevel: 6
+    ProductionFactor: 7.3
+    PartsRequired: 7
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 19
+    CollectibleLevel: 7
+    ProductionFactor: 8.2
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 19
+    CollectibleLevel: 8
+    ProductionFactor: 9
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 19
+    CollectibleLevel: 9
+    ProductionFactor: 10.3
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 19
+    CollectibleLevel: 10
+    ProductionFactor: 11.3
+    PartsRequired: 25
+    SecondaryEffectFactor: 2
+  - CollectibleID: 19
+    CollectibleLevel: 11
+    ProductionFactor: 12.8
+    PartsRequired: 30
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 19
+    CollectibleLevel: 12
+    ProductionFactor: 13.5
+    PartsRequired: 40
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 19
+    CollectibleLevel: 13
+    ProductionFactor: 15.4
+    PartsRequired: 50
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 19
+    CollectibleLevel: 14
+    ProductionFactor: 16.5
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 19
+    CollectibleLevel: 15
+    ProductionFactor: 18.2
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 19
+    CollectibleLevel: 16
+    ProductionFactor: 20.3
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 19
+    CollectibleLevel: 17
+    ProductionFactor: 23.2
+    PartsRequired: 125
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 19
+    CollectibleLevel: 18
+    ProductionFactor: 25.3
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 19
+    CollectibleLevel: 19
+    ProductionFactor: 27.5
+    PartsRequired: 175
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 19
+    CollectibleLevel: 20
+    ProductionFactor: 29.7
+    PartsRequired: 200
+    SecondaryEffectFactor: 3
+  - CollectibleID: 20
+    CollectibleLevel: 1
+    ProductionFactor: 1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 2
+    ProductionFactor: 1.3
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 4
+    ProductionFactor: 1.7
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 5
+    ProductionFactor: 2.2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 6
+    ProductionFactor: 2.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 7
+    ProductionFactor: 2.7
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 8
+    ProductionFactor: 3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 9
+    ProductionFactor: 3.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 10
+    ProductionFactor: 3.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 11
+    ProductionFactor: 4.2
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 12
+    ProductionFactor: 4.8
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 13
+    ProductionFactor: 5.3
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 14
+    ProductionFactor: 5.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 15
+    ProductionFactor: 6
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 16
+    ProductionFactor: 6.8
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 17
+    ProductionFactor: 7.7
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 18
+    ProductionFactor: 8.2
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 19
+    ProductionFactor: 8.9
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 20
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 2
+    ProductionFactor: 1.3
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 3
+    ProductionFactor: 1.5
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 4
+    ProductionFactor: 1.8
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 5
+    ProductionFactor: 2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 6
+    ProductionFactor: 2.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 7
+    ProductionFactor: 2.7
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 8
+    ProductionFactor: 3.3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 9
+    ProductionFactor: 3.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 10
+    ProductionFactor: 3.9
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 11
+    ProductionFactor: 4.4
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 12
+    ProductionFactor: 4.6
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 13
+    ProductionFactor: 5.2
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 14
+    ProductionFactor: 5.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 15
+    ProductionFactor: 6.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 16
+    ProductionFactor: 6.9
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 17
+    ProductionFactor: 7.6
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 18
+    ProductionFactor: 8
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 19
+    ProductionFactor: 8.6
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 21
+    CollectibleLevel: 20
+    ProductionFactor: 10
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 2
+    ProductionFactor: 1.2
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 3
+    ProductionFactor: 1.5
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 4
+    ProductionFactor: 1.9
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 5
+    ProductionFactor: 2
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 6
+    ProductionFactor: 2.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 7
+    ProductionFactor: 2.7
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 8
+    ProductionFactor: 3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 9
+    ProductionFactor: 3.7
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 10
+    ProductionFactor: 4
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 11
+    ProductionFactor: 4.2
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 12
+    ProductionFactor: 4.7
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 13
+    ProductionFactor: 5
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 14
+    ProductionFactor: 5.6
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 15
+    ProductionFactor: 6.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 16
+    ProductionFactor: 6.8
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 17
+    ProductionFactor: 7.7
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 18
+    ProductionFactor: 8.4
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 19
+    ProductionFactor: 8.7
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 22
+    CollectibleLevel: 20
+    ProductionFactor: 9.6
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 1
+    ProductionFactor: 1.1
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 2
+    ProductionFactor: 1.3
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 3
+    ProductionFactor: 1.4
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 4
+    ProductionFactor: 1.8
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 5
+    ProductionFactor: 2.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 6
+    ProductionFactor: 2.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 7
+    ProductionFactor: 2.6
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 8
+    ProductionFactor: 3.3
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 9
+    ProductionFactor: 3.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 10
+    ProductionFactor: 4
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 11
+    ProductionFactor: 4.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 12
+    ProductionFactor: 4.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 13
+    ProductionFactor: 5.3
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 14
+    ProductionFactor: 5.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 15
+    ProductionFactor: 6.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 16
+    ProductionFactor: 7
+    PartsRequired: 1500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 17
+    ProductionFactor: 7.4
+    PartsRequired: 2000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 18
+    ProductionFactor: 8
+    PartsRequired: 3000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 19
+    ProductionFactor: 9
+    PartsRequired: 4000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 23
+    CollectibleLevel: 20
+    ProductionFactor: 9.9
+    PartsRequired: 5000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 2
+    ProductionFactor: 1.8
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 3
+    ProductionFactor: 2.2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 5
+    ProductionFactor: 2.6
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 6
+    ProductionFactor: 3.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 7
+    ProductionFactor: 3.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 8
+    ProductionFactor: 4.1
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 9
+    ProductionFactor: 4.5
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 10
+    ProductionFactor: 4.7
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 11
+    ProductionFactor: 5.5
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 12
+    ProductionFactor: 6.2
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 13
+    ProductionFactor: 6.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 14
+    ProductionFactor: 7.5
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 15
+    ProductionFactor: 8.5
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 16
+    ProductionFactor: 9.5
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 17
+    ProductionFactor: 10.3
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 18
+    ProductionFactor: 11.6
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 19
+    ProductionFactor: 13
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 24
+    CollectibleLevel: 20
+    ProductionFactor: 14.7
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 2
+    ProductionFactor: 1.8
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 3
+    ProductionFactor: 2.1
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 5
+    ProductionFactor: 2.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 6
+    ProductionFactor: 3.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 7
+    ProductionFactor: 3.6
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 8
+    ProductionFactor: 4.1
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 9
+    ProductionFactor: 4.2
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 10
+    ProductionFactor: 4.9
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 11
+    ProductionFactor: 5.3
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 12
+    ProductionFactor: 6.2
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 13
+    ProductionFactor: 6.5
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 14
+    ProductionFactor: 7.3
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 15
+    ProductionFactor: 8.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 16
+    ProductionFactor: 9.1
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 17
+    ProductionFactor: 10.5
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 18
+    ProductionFactor: 11.4
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 19
+    ProductionFactor: 12.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 25
+    CollectibleLevel: 20
+    ProductionFactor: 14.7
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 1
+    ProductionFactor: 1.5
+    PartsRequired: 1
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 2
+    ProductionFactor: 1.8
+    PartsRequired: 2
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 3
+    ProductionFactor: 2
+    PartsRequired: 5
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 4
+    ProductionFactor: 2.3
+    PartsRequired: 10
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 5
+    ProductionFactor: 2.7
+    PartsRequired: 15
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 6
+    ProductionFactor: 3.1
+    PartsRequired: 20
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 7
+    ProductionFactor: 3.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 8
+    ProductionFactor: 4
+    PartsRequired: 40
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 9
+    ProductionFactor: 4.2
+    PartsRequired: 50
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 10
+    ProductionFactor: 4.8
+    PartsRequired: 75
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 11
+    ProductionFactor: 5.2
+    PartsRequired: 100
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 12
+    ProductionFactor: 6
+    PartsRequired: 150
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 13
+    ProductionFactor: 6.5
+    PartsRequired: 200
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 14
+    ProductionFactor: 7.2
+    PartsRequired: 250
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 15
+    ProductionFactor: 8.3
+    PartsRequired: 300
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 16
+    ProductionFactor: 9.4
+    PartsRequired: 400
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 17
+    ProductionFactor: 10.3
+    PartsRequired: 500
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 18
+    ProductionFactor: 11.5
+    PartsRequired: 600
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 19
+    ProductionFactor: 12.9
+    PartsRequired: 800
+    SecondaryEffectFactor: 0
+  - CollectibleID: 26
+    CollectibleLevel: 20
+    ProductionFactor: 14.4
+    PartsRequired: 1000
+    SecondaryEffectFactor: 0
+  - CollectibleID: 27
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 27
+    CollectibleLevel: 2
+    ProductionFactor: 2.7
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 27
+    CollectibleLevel: 3
+    ProductionFactor: 3.1
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 27
+    CollectibleLevel: 4
+    ProductionFactor: 3.6
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 27
+    CollectibleLevel: 5
+    ProductionFactor: 4.4
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 27
+    CollectibleLevel: 6
+    ProductionFactor: 4.8
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 27
+    CollectibleLevel: 7
+    ProductionFactor: 5.7
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 27
+    CollectibleLevel: 8
+    ProductionFactor: 6.4
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 27
+    CollectibleLevel: 9
+    ProductionFactor: 7
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 27
+    CollectibleLevel: 10
+    ProductionFactor: 8
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 27
+    CollectibleLevel: 11
+    ProductionFactor: 8.8
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 27
+    CollectibleLevel: 12
+    ProductionFactor: 9.9
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 27
+    CollectibleLevel: 13
+    ProductionFactor: 10.8
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 27
+    CollectibleLevel: 14
+    ProductionFactor: 11.6
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 27
+    CollectibleLevel: 15
+    ProductionFactor: 12.8
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 27
+    CollectibleLevel: 16
+    ProductionFactor: 14
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 27
+    CollectibleLevel: 17
+    ProductionFactor: 14.9
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 27
+    CollectibleLevel: 18
+    ProductionFactor: 16.2
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 27
+    CollectibleLevel: 19
+    ProductionFactor: 17.8
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 27
+    CollectibleLevel: 20
+    ProductionFactor: 19.3
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 28
+    CollectibleLevel: 1
+    ProductionFactor: 2
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 28
+    CollectibleLevel: 2
+    ProductionFactor: 2.5
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 28
+    CollectibleLevel: 3
+    ProductionFactor: 3
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 28
+    CollectibleLevel: 4
+    ProductionFactor: 3.6
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 28
+    CollectibleLevel: 5
+    ProductionFactor: 4.4
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 28
+    CollectibleLevel: 6
+    ProductionFactor: 4.9
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 28
+    CollectibleLevel: 7
+    ProductionFactor: 5.7
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 28
+    CollectibleLevel: 8
+    ProductionFactor: 6.5
+    PartsRequired: 30
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 28
+    CollectibleLevel: 9
+    ProductionFactor: 7.2
+    PartsRequired: 40
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 28
+    CollectibleLevel: 10
+    ProductionFactor: 8
+    PartsRequired: 50
+    SecondaryEffectFactor: 2
+  - CollectibleID: 28
+    CollectibleLevel: 11
+    ProductionFactor: 8.8
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 28
+    CollectibleLevel: 12
+    ProductionFactor: 9.6
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 28
+    CollectibleLevel: 13
+    ProductionFactor: 10.6
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 28
+    CollectibleLevel: 14
+    ProductionFactor: 11.6
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 28
+    CollectibleLevel: 15
+    ProductionFactor: 12.6
+    PartsRequired: 200
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 28
+    CollectibleLevel: 16
+    ProductionFactor: 14
+    PartsRequired: 250
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 28
+    CollectibleLevel: 17
+    ProductionFactor: 15.4
+    PartsRequired: 300
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 28
+    CollectibleLevel: 18
+    ProductionFactor: 16.6
+    PartsRequired: 350
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 28
+    CollectibleLevel: 19
+    ProductionFactor: 18
+    PartsRequired: 400
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 28
+    CollectibleLevel: 20
+    ProductionFactor: 19.9
+    PartsRequired: 500
+    SecondaryEffectFactor: 3
+  - CollectibleID: 29
+    CollectibleLevel: 1
+    ProductionFactor: 3
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.1
+  - CollectibleID: 29
+    CollectibleLevel: 2
+    ProductionFactor: 3.8
+    PartsRequired: 1
+    SecondaryEffectFactor: 1.2
+  - CollectibleID: 29
+    CollectibleLevel: 3
+    ProductionFactor: 4.6
+    PartsRequired: 2
+    SecondaryEffectFactor: 1.3
+  - CollectibleID: 29
+    CollectibleLevel: 4
+    ProductionFactor: 5.4
+    PartsRequired: 3
+    SecondaryEffectFactor: 1.4
+  - CollectibleID: 29
+    CollectibleLevel: 5
+    ProductionFactor: 6.3
+    PartsRequired: 5
+    SecondaryEffectFactor: 1.5
+  - CollectibleID: 29
+    CollectibleLevel: 6
+    ProductionFactor: 7.4
+    PartsRequired: 7
+    SecondaryEffectFactor: 1.6
+  - CollectibleID: 29
+    CollectibleLevel: 7
+    ProductionFactor: 8.1
+    PartsRequired: 10
+    SecondaryEffectFactor: 1.7
+  - CollectibleID: 29
+    CollectibleLevel: 8
+    ProductionFactor: 9
+    PartsRequired: 15
+    SecondaryEffectFactor: 1.8
+  - CollectibleID: 29
+    CollectibleLevel: 9
+    ProductionFactor: 10
+    PartsRequired: 20
+    SecondaryEffectFactor: 1.9
+  - CollectibleID: 29
+    CollectibleLevel: 10
+    ProductionFactor: 11.1
+    PartsRequired: 25
+    SecondaryEffectFactor: 2
+  - CollectibleID: 29
+    CollectibleLevel: 11
+    ProductionFactor: 12.3
+    PartsRequired: 30
+    SecondaryEffectFactor: 2.1
+  - CollectibleID: 29
+    CollectibleLevel: 12
+    ProductionFactor: 13.8
+    PartsRequired: 40
+    SecondaryEffectFactor: 2.2
+  - CollectibleID: 29
+    CollectibleLevel: 13
+    ProductionFactor: 15.6
+    PartsRequired: 50
+    SecondaryEffectFactor: 2.3
+  - CollectibleID: 29
+    CollectibleLevel: 14
+    ProductionFactor: 16.5
+    PartsRequired: 60
+    SecondaryEffectFactor: 2.4
+  - CollectibleID: 29
+    CollectibleLevel: 15
+    ProductionFactor: 18.4
+    PartsRequired: 80
+    SecondaryEffectFactor: 2.5
+  - CollectibleID: 29
+    CollectibleLevel: 16
+    ProductionFactor: 20.2
+    PartsRequired: 100
+    SecondaryEffectFactor: 2.6
+  - CollectibleID: 29
+    CollectibleLevel: 17
+    ProductionFactor: 23.5
+    PartsRequired: 125
+    SecondaryEffectFactor: 2.7
+  - CollectibleID: 29
+    CollectibleLevel: 18
+    ProductionFactor: 25
+    PartsRequired: 150
+    SecondaryEffectFactor: 2.8
+  - CollectibleID: 29
+    CollectibleLevel: 19
+    ProductionFactor: 27.1
+    PartsRequired: 175
+    SecondaryEffectFactor: 2.9
+  - CollectibleID: 29
+    CollectibleLevel: 20
+    ProductionFactor: 29.1
+    PartsRequired: 200
+    SecondaryEffectFactor: 3

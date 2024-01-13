@@ -1,0 +1,48 @@
+
+expeditiondwarf.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 68
+  size: 312, 254
+  orig: 312, 254
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 532, 765
+  size: 183, 202
+  orig: 183, 202
+  offset: 0, 0
+  index: -1
+handR
+  rotate: false
+  xy: 316, 173
+  size: 128, 149
+  orig: 128, 149
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 496
+  size: 528, 471
+  orig: 528, 471
+  offset: 0, 0
+  index: -1
+scroll
+  rotate: false
+  xy: 2, 2
+  size: 54, 64
+  orig: 54, 64
+  offset: 0, 0
+  index: -1
+shovel
+  rotate: false
+  xy: 2, 324
+  size: 564, 170
+  orig: 564, 170
+  offset: 0, 0
+  index: -1

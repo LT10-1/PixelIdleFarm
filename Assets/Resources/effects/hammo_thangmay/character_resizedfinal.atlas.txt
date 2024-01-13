@@ -1,0 +1,118 @@
+
+character_resizedfinal.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dongda2
+  rotate: false
+  xy: 49, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+dongda2_diamond
+  rotate: false
+  xy: 92, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+dongda2_esmerald
+  rotate: false
+  xy: 135, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+dongda2_gold
+  rotate: false
+  xy: 178, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+dongda2_ruby
+  rotate: false
+  xy: 221, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+dongda_amber
+  rotate: false
+  xy: 311, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_amethyst
+  rotate: false
+  xy: 358, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_crystal
+  rotate: false
+  xy: 405, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_jade
+  rotate: false
+  xy: 452, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_moonstone
+  rotate: false
+  xy: 499, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_obidian
+  rotate: false
+  xy: 546, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_pinkgem
+  rotate: false
+  xy: 593, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_platinum
+  rotate: false
+  xy: 640, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_r9
+  rotate: false
+  xy: 687, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongda_sunstone
+  rotate: false
+  xy: 264, 7
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+dongdaresource_bluegem
+  rotate: false
+  xy: 2, 2
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1

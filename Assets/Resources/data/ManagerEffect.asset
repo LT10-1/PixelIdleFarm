@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b829c233900057345e31f24eb03f4ee3, type: 3}
+  m_Name: "ManagerEffect"
+  m_EditorClassIdentifier: 
+  Params:
+  - EffectID: 1
+    EffectName: "GroundWalkingSpeedBoost"
+    StringId: 
+    Area: 2
+    EffectDescription: 
+  - EffectID: 2
+    EffectName: "GroundIncomeMultiplier"
+    StringId: 
+    Area: 2
+    EffectDescription: 
+  - EffectID: 3
+    EffectName: "GroundUpgradeCostReduction"
+    StringId: 
+    Area: 2
+    EffectDescription: 
+  - EffectID: 4
+    EffectName: "GroundLoadingSpeedPerSecondMultiplier"
+    StringId: 
+    Area: 2
+    EffectDescription: 
+  - EffectID: 5
+    EffectName: "GroundWorkerCapacityMultiplier"
+    StringId: 
+    Area: 2
+    EffectDescription: 
+  - EffectID: 6
+    EffectName: "CorridorIncomeMultiplier"
+    StringId: 
+    Area: 1
+    EffectDescription: 
+  - EffectID: 7
+    EffectName: "CorridorInstantMoney"
+    StringId: 
+    Area: 1
+    EffectDescription: 
+  - EffectID: 8
+    EffectName: "CorridorWorkerGainMultiplier"
+    StringId: 
+    Area: 1
+    EffectDescription: 
+  - EffectID: 9
+    EffectName: "CorridorWorkerWalkingSpeedMultiplier"
+    StringId: 
+    Area: 1
+    EffectDescription: 
+  - EffectID: 10
+    EffectName: "CorridorUpgradeCostReduction"
+    StringId: 
+    Area: 1
+    EffectDescription: 
+  - EffectID: 11
+    EffectName: "ElevatorTiersPerSecondsMultiplier"
+    StringId: 
+    Area: 3
+    EffectDescription: 
+  - EffectID: 12
+    EffectName: "ElevatorCapacityMultiplier"
+    StringId: 
+    Area: 3
+    EffectDescription: 
+  - EffectID: 13
+    EffectName: "ElevatorLoadingSpeedPerSecondMultiplier"
+    StringId: 
+    Area: 3
+    EffectDescription: 
+  - EffectID: 14
+    EffectName: "MineInstantMoney"
+    StringId: 
+    Area: 0
+    EffectDescription: 
+  - EffectID: 15
+    EffectName: "ElevatorIncomeMultiplier"
+    StringId: 
+    Area: 3
+    EffectDescription: 
+  - EffectID: 16
+    EffectName: "ElevatorUpgradeCostReduction"
+    StringId: 
+    Area: 3
+    EffectDescription: 

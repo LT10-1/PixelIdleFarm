@@ -1,0 +1,1215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d01ad6b3b9243467aa292a98602907, type: 3}
+  m_Name: "Skill"
+  m_EditorClassIdentifier: 
+  Params:
+  - SkillID: 0
+    ParentId: -1
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 1
+    ParentId: 0
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 1
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 2
+    ParentId: 1
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 2
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 3
+    ParentId: 2
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 3
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 4
+    ParentId: 3
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 4
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 5
+    ParentId: 4
+    EffectId: 2
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 6
+    ParentId: 5
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 5
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 7
+    ParentId: 6
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 6
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 8
+    ParentId: 7
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 7
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 9
+    ParentId: 8
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 8
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 10
+    ParentId: 9
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 9
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 11
+    ParentId: 10
+    EffectId: 2
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 12
+    ParentId: 11
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 10
+    - 13.5
+    - 17
+    - 20.5
+    - 24.5
+    - 28.5
+    - 32.5
+    - 37
+    - 41.5
+    - 46
+    ParamY: 2
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 13
+    ParentId: 12
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 26
+    - 30
+    - 34
+    - 38.5
+    - 43
+    - 47.5
+    - 52.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 14
+    ParentId: 13
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27.5
+    - 31.5
+    - 35.5
+    - 40
+    - 44.5
+    - 49
+    - 54
+    - 59
+    ParamY: 4
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 15
+    ParentId: 14
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 25
+    - 29
+    - 33
+    - 37
+    - 41.5
+    - 46
+    - 50.5
+    - 55.5
+    - 60.5
+    - 65.5
+    ParamY: 1
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 16
+    ParentId: 15
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 30
+    - 34
+    - 38
+    - 42.5
+    - 47
+    - 51.5
+    - 56.5
+    - 61.5
+    - 66.5
+    - 71.5
+    ParamY: 3
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 17
+    ParentId: 16
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 136
+    IsMajor: 0
+    ParamX:
+    - 100
+    - 106
+    - 112
+    - 118.5
+    - 125
+    - 132
+    - 139
+    - 146
+    - 153.5
+    - 161
+    ParamY: 7
+    SkillPoint: 140000000200000004000000060000000A0000000E00000014000000140000001400000014000000
+  - SkillID: 18
+    ParentId: 11
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 10
+    - 13.5
+    - 17
+    - 20.5
+    - 24.5
+    - 28.5
+    - 32.5
+    - 37
+    - 41.5
+    - 46
+    ParamY: 7
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 19
+    ParentId: 18
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 26
+    - 30
+    - 34
+    - 38.5
+    - 43
+    - 47.5
+    - 52.5
+    ParamY: 5
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 20
+    ParentId: 19
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27.5
+    - 31.5
+    - 35.5
+    - 40
+    - 44.5
+    - 49
+    - 54
+    - 59
+    ParamY: 9
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 21
+    ParentId: 20
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 25
+    - 29
+    - 33
+    - 37
+    - 41.5
+    - 46
+    - 50.5
+    - 55.5
+    - 60.5
+    - 65.5
+    ParamY: 6
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 22
+    ParentId: 21
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 30
+    - 34
+    - 38
+    - 42.5
+    - 47
+    - 51.5
+    - 56.5
+    - 61.5
+    - 66.5
+    - 71.5
+    ParamY: 8
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 23
+    ParentId: 22
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 136
+    IsMajor: 0
+    ParamX:
+    - 100
+    - 106
+    - 112
+    - 118.5
+    - 125
+    - 132
+    - 139
+    - 146
+    - 153.5
+    - 161
+    ParamY: 2
+    SkillPoint: 140000000200000004000000060000000A0000000E00000014000000140000001400000014000000
+  - SkillID: 24
+    ParentId: 11
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 10
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 25
+    ParentId: 24
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 11
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 26
+    ParentId: 25
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 12
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 27
+    ParentId: 26
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 13
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 28
+    ParentId: 27
+    EffectId: 1
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 14
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 29
+    ParentId: 28
+    EffectId: 2
+    SkillPathID: 0
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 30
+    ParentId: -1
+    EffectId: 4
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 21.5
+    - 23
+    - 24.5
+    - 26
+    - 27.5
+    - 29
+    - 30.5
+    - 32
+    - 33.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 31
+    ParentId: 30
+    EffectId: 8
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 32
+    ParentId: 31
+    EffectId: 3
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 21.5
+    - 23
+    - 24.5
+    - 26
+    - 27.5
+    - 29
+    - 30.5
+    - 32
+    - 33.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 33
+    ParentId: 32
+    EffectId: 9
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 34
+    ParentId: 33
+    EffectId: 5
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 23.5
+    - 25
+    - 26.5
+    - 28
+    - 29.5
+    - 31
+    - 32.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 35
+    ParentId: 34
+    EffectId: 7
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 36
+    ParentId: 35
+    EffectId: 4
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 37
+    ParentId: 36
+    EffectId: 8
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 10
+    - 13.5
+    - 17
+    - 20.5
+    - 24.5
+    - 28.5
+    - 32.5
+    - 37
+    - 41.5
+    - 46
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 38
+    ParentId: 37
+    EffectId: 3
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 39
+    ParentId: 38
+    EffectId: 9
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 10
+    - 13.5
+    - 17
+    - 20.5
+    - 24.5
+    - 28.5
+    - 32.5
+    - 37
+    - 41.5
+    - 46
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 40
+    ParentId: 39
+    EffectId: 5
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 10
+    - 12
+    - 14
+    - 15.5
+    - 17
+    - 18.5
+    - 20
+    - 21.5
+    - 23
+    - 24.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 41
+    ParentId: 40
+    EffectId: 6
+    SkillPathID: 1
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 40
+    - 44
+    - 48.5
+    - 53
+    - 57.5
+    - 62
+    - 67
+    - 72
+    - 77
+    - 82.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 42
+    ParentId: -1
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 1
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 43
+    ParentId: 42
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 13
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 44
+    ParentId: 43
+    EffectId: 13
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 0
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 45
+    ParentId: 44
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 11
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 46
+    ParentId: 45
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 8
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 47
+    ParentId: 46
+    EffectId: 11
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 2
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 48
+    ParentId: 47
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 9
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 49
+    ParentId: 48
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 4
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 50
+    ParentId: 49
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 18.5
+    - 22
+    - 25.5
+    - 29.5
+    - 33.5
+    - 37.5
+    - 42
+    - 46.5
+    - 51
+    ParamY: 12
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 51
+    ParentId: 50
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 10
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 52
+    ParentId: 51
+    EffectId: 12
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 2
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 53
+    ParentId: 52
+    EffectId: 11
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 3
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 54
+    ParentId: 53
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 3
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 55
+    ParentId: 54
+    EffectId: 12
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 3
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 56
+    ParentId: 55
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 5
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 57
+    ParentId: 56
+    EffectId: 10
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 16
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 58
+    ParentId: 57
+    EffectId: 12
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 15
+    - 16.5
+    - 18
+    - 19.5
+    - 21
+    - 22.5
+    - 24
+    - 25.5
+    - 27
+    - 28.5
+    ParamY: 1
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000
+  - SkillID: 59
+    ParentId: 58
+    EffectId: 11
+    SkillPathID: 2
+    MaxLevel: 10
+    MaxSkillPoints: 68
+    IsMajor: 0
+    ParamX:
+    - 20
+    - 23.5
+    - 27
+    - 30.5
+    - 34.5
+    - 38.5
+    - 42.5
+    - 47
+    - 51.5
+    - 56
+    ParamY: 1
+    SkillPoint: 0A00000001000000020000000300000005000000070000000A0000000A0000000A0000000A000000

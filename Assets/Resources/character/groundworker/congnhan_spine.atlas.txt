@@ -1,0 +1,692 @@
+
+congnhan_spine.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CNVC_skins/common2/body
+  rotate: true
+  xy: 173, 97
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/lowerleg_l
+  rotate: false
+  xy: 1011, 241
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/lowerleg_r
+  rotate: false
+  xy: 308, 66
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/mu_copy
+  rotate: false
+  xy: 93, 190
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/pencil
+  rotate: true
+  xy: 127, 2
+  size: 45, 20
+  orig: 45, 20
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/pencil2
+  rotate: true
+  xy: 202, 59
+  size: 36, 18
+  orig: 36, 18
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/underarm_r
+  rotate: true
+  xy: 383, 114
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/upperarm_r
+  rotate: false
+  xy: 368, 117
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/upperleg_l
+  rotate: true
+  xy: 383, 94
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+CNVC_skins/common2/upperleg_r
+  rotate: true
+  xy: 563, 157
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/arr_sau
+  rotate: true
+  xy: 308, 103
+  size: 43, 18
+  orig: 43, 18
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/arr_trc
+  rotate: true
+  xy: 70, 69
+  size: 51, 23
+  orig: 51, 23
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/body
+  rotate: false
+  xy: 222, 91
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/lowerleg_l
+  rotate: false
+  xy: 1011, 226
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/lowerleg_r
+  rotate: true
+  xy: 239, 51
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/mu_copy
+  rotate: false
+  xy: 196, 190
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/underarm_r
+  rotate: false
+  xy: 422, 128
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/upperarm_r-001
+  rotate: false
+  xy: 383, 128
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/upperleg_l
+  rotate: true
+  xy: 404, 94
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+CNVC_skins/common3/upperleg_r
+  rotate: false
+  xy: 787, 149
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/body
+  rotate: false
+  xy: 265, 99
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/lowerleg_l
+  rotate: false
+  xy: 1011, 211
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/lowerleg_r
+  rotate: false
+  xy: 220, 36
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/mu_copy
+  rotate: false
+  xy: 299, 190
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/sau
+  rotate: false
+  xy: 328, 119
+  size: 38, 26
+  orig: 38, 26
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/trc
+  rotate: true
+  xy: 144, 50
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/underarm_r
+  rotate: true
+  xy: 406, 114
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/upperarm_r
+  rotate: true
+  xy: 618, 157
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/upperleg_l
+  rotate: true
+  xy: 264, 65
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+CNVC_skins/common4/upperleg_r
+  rotate: false
+  xy: 810, 149
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/Ellipse_2_copy
+  rotate: false
+  xy: 460, 153
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/Ellipse_2_copy_2
+  rotate: false
+  xy: 488, 153
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/Layer_102
+  rotate: true
+  xy: 330, 147
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/Layer_102_copy
+  rotate: false
+  xy: 93, 143
+  size: 84, 45
+  orig: 84, 45
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/Layer_90
+  rotate: false
+  xy: 402, 181
+  size: 90, 73
+  orig: 90, 73
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/lowerleg_l
+  rotate: true
+  xy: 710, 152
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/lowerleg_r
+  rotate: false
+  xy: 515, 154
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/underarm_r
+  rotate: true
+  xy: 175, 2
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/upperarm_r
+  rotate: false
+  xy: 205, 30
+  size: 13, 27
+  orig: 13, 27
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/upperleg_l
+  rotate: false
+  xy: 288, 78
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic1/upperleg_r
+  rotate: false
+  xy: 911, 165
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic2/body
+  rotate: true
+  xy: 95, 49
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic2/lowerleg_l
+  rotate: true
+  xy: 736, 152
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic2/lowerleg_r
+  rotate: false
+  xy: 539, 154
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic2/mu
+  rotate: false
+  xy: 494, 181
+  size: 90, 73
+  orig: 90, 73
+  offset: 0, 0
+  index: -1
+CNVC_skins/epic2/underarm_r
+  rotate: true
+  xy: 200, 2
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/Layer_109
+  rotate: false
+  xy: 2, 165
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/banhtrc1
+  rotate: false
+  xy: 398, 128
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/banhtrc2
+  rotate: false
+  xy: 950, 160
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/bar1
+  rotate: true
+  xy: 149, 8
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/bar2
+  rotate: false
+  xy: 222, 66
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/bar3
+  rotate: true
+  xy: 70, 122
+  size: 41, 21
+  orig: 41, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/cart
+  rotate: false
+  xy: 179, 140
+  size: 76, 48
+  orig: 76, 48
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/ghe_front
+  rotate: false
+  xy: 2, 4
+  size: 74, 54
+  orig: 74, 54
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/ty;ai
+  rotate: false
+  xy: 174, 57
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/underarm_r
+  rotate: true
+  xy: 265, 85
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/legendary/upperarm_r
+  rotate: true
+  xy: 922, 188
+  size: 13, 27
+  orig: 13, 27
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare1/mu
+  rotate: false
+  xy: 586, 173
+  size: 84, 81
+  orig: 84, 81
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/body
+  rotate: true
+  xy: 78, 6
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/cart
+  rotate: false
+  xy: 922, 203
+  size: 87, 51
+  orig: 87, 51
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/lowerleg_l
+  rotate: false
+  xy: 225, 5
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/lowerleg_r
+  rotate: false
+  xy: 220, 20
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/mu
+  rotate: false
+  xy: 672, 173
+  size: 84, 81
+  orig: 84, 81
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/underarm_r
+  rotate: true
+  xy: 285, 64
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/upperarm_r-001
+  rotate: true
+  xy: 649, 157
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/upperleg_l
+  rotate: false
+  xy: 308, 82
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/upperleg_r
+  rotate: false
+  xy: 973, 159
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare2/wheel
+  rotate: true
+  xy: 879, 160
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+CNVC_skins/rare3/mu
+  rotate: false
+  xy: 758, 173
+  size: 84, 81
+  orig: 84, 81
+  offset: 0, 0
+  index: -1
+congchua/crown_zero
+  rotate: false
+  xy: 235, 27
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/body
+  rotate: false
+  xy: 95, 92
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/bone_sau
+  rotate: true
+  xy: 175, 20
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/bone_trc
+  rotate: true
+  xy: 139, 92
+  size: 49, 32
+  orig: 49, 32
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/cart
+  rotate: false
+  xy: 257, 148
+  size: 71, 40
+  orig: 71, 40
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/eyebrow_l
+  rotate: false
+  xy: 680, 153
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/eyebrow_r
+  rotate: false
+  xy: 328, 99
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/head
+  rotate: false
+  xy: 844, 191
+  size: 76, 63
+  orig: 76, 63
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/lowerarm_l
+  rotate: true
+  xy: 328, 83
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/lowerarm_r
+  rotate: false
+  xy: 934, 165
+  size: 14, 21
+  orig: 14, 21
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/lowerleg_l
+  rotate: true
+  xy: 222, 52
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/lowerleg_r
+  rotate: false
+  xy: 78, 52
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/mu copy
+  rotate: true
+  xy: 2, 60
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/nose
+  rotate: false
+  xy: 400, 151
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/toc
+  rotate: false
+  xy: 844, 164
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/upperarm_l
+  rotate: false
+  xy: 383, 158
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/upperarm_r
+  rotate: true
+  xy: 586, 156
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/upperleg_l
+  rotate: true
+  xy: 996, 159
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/upperleg_r
+  rotate: false
+  xy: 762, 149
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/wheel
+  rotate: false
+  xy: 976, 181
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+congnhanvanchuyen/wheel copy
+  rotate: false
+  xy: 1000, 181
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: true
+  xy: 951, 183
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: false
+  xy: 430, 152
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+glove_l
+  rotate: false
+  xy: 361, 96
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+glove_r
+  rotate: false
+  xy: 436, 131
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+pupil_l
+  rotate: true
+  xy: 235, 20
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+pupil_r
+  rotate: false
+  xy: 833, 163
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+smiling mouth2
+  rotate: false
+  xy: 205, 20
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+smilingmouth
+  rotate: false
+  xy: 235, 39
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1

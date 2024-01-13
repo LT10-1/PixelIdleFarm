@@ -1,0 +1,75 @@
+
+explosion_phada3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 97, 100
+  orig: 97, 100
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 626, 516
+  size: 464, 375
+  orig: 464, 375
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 540
+  size: 622, 440
+  orig: 622, 440
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 101
+  size: 575, 437
+  orig: 575, 437
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 579, 83
+  size: 428, 431
+  orig: 428, 431
+  offset: 0, 0
+  index: -1
+
+explosion_phada32.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 485, 731
+  size: 304, 280
+  orig: 304, 280
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 562
+  size: 481, 449
+  orig: 481, 449
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2, 164
+  size: 368, 396
+  orig: 368, 396
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 2, 2
+  size: 160, 189
+  orig: 160, 189
+  offset: 0, 0
+  index: -1

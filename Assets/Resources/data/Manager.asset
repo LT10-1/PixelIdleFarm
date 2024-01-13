@@ -1,0 +1,591 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87ef826c100bef2f4a24b5716941e11, type: 3}
+  m_Name: "Manager"
+  m_EditorClassIdentifier: 
+  Params:
+  - ManagerID: 0
+    Name: 
+    RarityID: 1
+    EffectID: 1
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 3
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 1
+    Name: 
+    RarityID: 2
+    EffectID: 1
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 2
+    Name: 
+    RarityID: 3
+    EffectID: 1
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 8
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 3
+    Name: 
+    RarityID: 1
+    EffectID: 2
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 4
+    Name: 
+    RarityID: 2
+    EffectID: 2
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 5
+    Name: 
+    RarityID: 3
+    EffectID: 2
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 6
+    Name: 
+    RarityID: 1
+    EffectID: 3
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0.6
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 7
+    Name: 
+    RarityID: 2
+    EffectID: 3
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0.3
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 8
+    Name: 
+    RarityID: 3
+    EffectID: 3
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 0.2
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 9
+    Name: 
+    RarityID: 1
+    EffectID: 4
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 3
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 10
+    Name: 
+    RarityID: 2
+    EffectID: 4
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 11
+    Name: 
+    RarityID: 3
+    EffectID: 4
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 8
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 12
+    Name: 
+    RarityID: 1
+    EffectID: 5
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 3
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 13
+    Name: 
+    RarityID: 2
+    EffectID: 5
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 14
+    Name: 
+    RarityID: 3
+    EffectID: 5
+    Area: 2
+    DelayPerClickInSeconds: 0
+    ValueX: 7
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 15
+    Name: 
+    RarityID: 1
+    EffectID: 6
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 16
+    Name: 
+    RarityID: 2
+    EffectID: 6
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 17
+    Name: 
+    RarityID: 3
+    EffectID: 6
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 18
+    Name: 
+    RarityID: 1
+    EffectID: 7
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 19
+    Name: 
+    RarityID: 2
+    EffectID: 7
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 20
+    Name: 
+    RarityID: 3
+    EffectID: 7
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 21
+    Name: 
+    RarityID: 1
+    EffectID: 8
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 3
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 22
+    Name: 
+    RarityID: 2
+    EffectID: 8
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 23
+    Name: 
+    RarityID: 3
+    EffectID: 8
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 7
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 24
+    Name: 
+    RarityID: 1
+    EffectID: 9
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 3.5
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 25
+    Name: 
+    RarityID: 2
+    EffectID: 9
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 5.5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 26
+    Name: 
+    RarityID: 3
+    EffectID: 9
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 7.5
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 27
+    Name: 
+    RarityID: 1
+    EffectID: 10
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0.6
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 28
+    Name: 
+    RarityID: 2
+    EffectID: 10
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0.3
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 29
+    Name: 
+    RarityID: 3
+    EffectID: 10
+    Area: 1
+    DelayPerClickInSeconds: 0
+    ValueX: 0.2
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 30
+    Name: 
+    RarityID: 1
+    EffectID: 11
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 2
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 31
+    Name: 
+    RarityID: 2
+    EffectID: 11
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 4
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 32
+    Name: 
+    RarityID: 3
+    EffectID: 11
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 6
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 33
+    Name: 
+    RarityID: 1
+    EffectID: 12
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 3
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 34
+    Name: 
+    RarityID: 2
+    EffectID: 12
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 5
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 35
+    Name: 
+    RarityID: 3
+    EffectID: 12
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 8
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 36
+    Name: 
+    RarityID: 1
+    EffectID: 13
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 2
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 37
+    Name: 
+    RarityID: 2
+    EffectID: 13
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 4
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 38
+    Name: 
+    RarityID: 3
+    EffectID: 13
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 6
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 39
+    Name: 
+    RarityID: 1
+    EffectID: 14
+    Area: 0
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 40
+    Name: 
+    RarityID: 2
+    EffectID: 14
+    Area: 0
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 41
+    Name: 
+    RarityID: 3
+    EffectID: 14
+    Area: 0
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 42
+    Name: 
+    RarityID: 1
+    EffectID: 15
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 43
+    Name: 
+    RarityID: 2
+    EffectID: 15
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 44
+    Name: 
+    RarityID: 3
+    EffectID: 15
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 45
+    Name: 
+    RarityID: 1
+    EffectID: 16
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0.6
+    ActiveTime: 60
+    Cooldown: 300
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 46
+    Name: 
+    RarityID: 2
+    EffectID: 16
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0.3
+    ActiveTime: 180
+    Cooldown: 900
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0
+  - ManagerID: 47
+    Name: 
+    RarityID: 3
+    EffectID: 16
+    Area: 3
+    DelayPerClickInSeconds: 0
+    ValueX: 0.2
+    ActiveTime: 600
+    Cooldown: 3000
+    AvailableThroughPurchase: 0
+    RatingReward: 0
+    ManagerBuyOrder: 0

@@ -1,0 +1,48 @@
+
+quanlythangmay_executive_resize.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 2, 2
+  size: 47, 76
+  orig: 47, 76
+  offset: 0, 0
+  index: -1
+bar
+  rotate: false
+  xy: 134, 143
+  size: 83, 24
+  orig: 83, 24
+  offset: 0, 0
+  index: -1
+ong
+  rotate: false
+  xy: 2, 51
+  size: 143, 68
+  orig: 143, 68
+  offset: 0, 0
+  index: -1
+ong copy
+  rotate: false
+  xy: 134, 169
+  size: 97, 80
+  orig: 97, 80
+  offset: 0, 0
+  index: -1
+ong2
+  rotate: true
+  xy: 80, 6
+  size: 43, 64
+  orig: 43, 64
+  offset: 0, 0
+  index: -1
+voi
+  rotate: false
+  xy: 2, 121
+  size: 130, 128
+  orig: 130, 128
+  offset: 0, 0
+  index: -1

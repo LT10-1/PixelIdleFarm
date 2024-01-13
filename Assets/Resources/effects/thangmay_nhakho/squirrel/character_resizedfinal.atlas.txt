@@ -1,0 +1,202 @@
+
+character_resizedfinal.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 15 copy
+  rotate: false
+  xy: 413, 220
+  size: 84, 34
+  orig: 84, 34
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 337, 174
+  size: 74, 80
+  orig: 74, 80
+  offset: 0, 0
+  index: -1
+c_barrel
+  rotate: false
+  xy: 156, 90
+  size: 118, 34
+  orig: 118, 34
+  offset: 0, 0
+  index: -1
+c_body
+  rotate: false
+  xy: 260, 155
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+c_chan
+  rotate: false
+  xy: 413, 184
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+c_lowertay
+  rotate: false
+  xy: 467, 152
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+c_tai
+  rotate: true
+  xy: 127, 2
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+c_tay
+  rotate: false
+  xy: 304, 141
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+c_uppertay
+  rotate: false
+  xy: 156, 33
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+chan
+  rotate: false
+  xy: 337, 139
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+lowertay
+  rotate: true
+  xy: 62, 5
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+m_barrel
+  rotate: false
+  xy: 156, 54
+  size: 118, 34
+  orig: 118, 34
+  offset: 0, 0
+  index: -1
+m_body
+  rotate: false
+  xy: 79, 25
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+m_chan
+  rotate: true
+  xy: 467, 166
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+m_lowertay
+  rotate: false
+  xy: 285, 141
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+m_tai
+  rotate: true
+  xy: 2, 2
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+m_tay
+  rotate: false
+  xy: 486, 152
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+m_uppettay
+  rotate: false
+  xy: 260, 134
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+tai
+  rotate: true
+  xy: 36, 3
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+tay
+  rotate: false
+  xy: 225, 40
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+tho_barrel
+  rotate: false
+  xy: 2, 126
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+tho_body
+  rotate: false
+  xy: 2, 24
+  size: 75, 100
+  orig: 75, 100
+  offset: 0, 0
+  index: -1
+tho_chan
+  rotate: false
+  xy: 413, 149
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+tho_lowertay
+  rotate: false
+  xy: 206, 40
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+tho_tai
+  rotate: true
+  xy: 79, 2
+  size: 21, 46
+  orig: 21, 46
+  offset: 0, 0
+  index: -1
+tho_tay
+  rotate: false
+  xy: 318, 141
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+tho_uppertay
+  rotate: true
+  xy: 391, 149
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+uppertay
+  rotate: false
+  xy: 181, 33
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1

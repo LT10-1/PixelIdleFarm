@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26f9399c96dc0fbc285600717223818, type: 3}
+  m_Name: "ItemIAPPackage"
+  m_EditorClassIdentifier: 
+  Params:
+  - ProductID: "package.starter1"
+    ItemIDList: 3A00000018000000
+    ItemCountList: 0100000003000000
+    SuperCashGain: 1500
+    IAPCost: 6
+  - ProductID: "package.gold1"
+    ItemIDList: 3B000000140000001E00000029000000
+    ItemCountList: 01000000040000000200000001000000
+    SuperCashGain: 2400
+    IAPCost: 20

@@ -1,0 +1,496 @@
+
+quanlythangmay_executive_resize.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 13
+  rotate: true
+  xy: 231, 139
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 131, 361
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+Layer 6 copy
+  rotate: false
+  xy: 301, 215
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: true
+  xy: 112, 43
+  size: 22, 13
+  orig: 22, 13
+  offset: 0, 0
+  index: -1
+aura_exe/body
+  rotate: false
+  xy: 2, 43
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+aura_exe/cloak
+  rotate: false
+  xy: 432, 423
+  size: 95, 87
+  orig: 95, 87
+  offset: 0, 0
+  index: -1
+aura_exe/cloakBH
+  rotate: false
+  xy: 762, 359
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+aura_exe/cloakIS
+  rotate: false
+  xy: 695, 362
+  size: 65, 55
+  orig: 65, 55
+  offset: 0, 0
+  index: -1
+aura_exe/face
+  rotate: false
+  xy: 2, 248
+  size: 127, 124
+  orig: 127, 124
+  offset: 0, 0
+  index: -1
+aura_exe/fire1
+  rotate: true
+  xy: 288, 227
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+aura_exe/fire2
+  rotate: false
+  xy: 975, 349
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+aura_exe/staff
+  rotate: true
+  xy: 909, 430
+  size: 80, 83
+  orig: 80, 83
+  offset: 0, 0
+  index: -1
+aura_exe/upperarmL copy 2
+  rotate: false
+  xy: 945, 375
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+aura_exe/wing
+  rotate: false
+  xy: 266, 361
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+aura_jr/body
+  rotate: true
+  xy: 625, 419
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+aura_jr/face
+  rotate: false
+  xy: 2, 137
+  size: 121, 109
+  orig: 121, 109
+  offset: 0, 0
+  index: -1
+aura_jr/fire1_copy
+  rotate: true
+  xy: 624, 348
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+aura_jr/fire2_copy
+  rotate: false
+  xy: 995, 350
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+aura_jr/upperarmL
+  rotate: true
+  xy: 192, 229
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+aura_jr/upperarmR
+  rotate: false
+  xy: 181, 174
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+aura_jr/wand
+  rotate: false
+  xy: 125, 120
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1
+aura_jr/wing
+  rotate: false
+  xy: 624, 357
+  size: 69, 60
+  orig: 69, 60
+  offset: 0, 0
+  index: -1
+aura_sr/body
+  rotate: true
+  xy: 719, 419
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+aura_sr/cloak
+  rotate: false
+  xy: 529, 423
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+aura_sr/cloak_inside
+  rotate: false
+  xy: 818, 377
+  size: 64, 55
+  orig: 64, 55
+  offset: 0, 0
+  index: -1
+aura_sr/cloakbehind
+  rotate: false
+  xy: 125, 173
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+aura_sr/face
+  rotate: false
+  xy: 2, 374
+  size: 165, 136
+  orig: 165, 136
+  offset: 0, 0
+  index: -1
+aura_sr/fire1_copy
+  rotate: true
+  xy: 308, 227
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+aura_sr/fire2_copy
+  rotate: false
+  xy: 328, 254
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+aura_sr/staff
+  rotate: false
+  xy: 813, 434
+  size: 94, 76
+  orig: 94, 76
+  offset: 0, 0
+  index: -1
+aura_sr/wing
+  rotate: true
+  xy: 214, 277
+  size: 82, 55
+  orig: 82, 55
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 344, 292
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+bun
+  rotate: false
+  xy: 231, 105
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crown_zero
+  rotate: false
+  xy: 344, 280
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+exe/body
+  rotate: true
+  xy: 503, 346
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+exe/cloak
+  rotate: true
+  xy: 271, 280
+  size: 79, 71
+  orig: 79, 71
+  offset: 0, 0
+  index: -1
+exe/cloak_IS
+  rotate: false
+  xy: 70, 2
+  size: 49, 39
+  orig: 49, 39
+  offset: 0, 0
+  index: -1
+exe/cloakiBH
+  rotate: false
+  xy: 288, 236
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1
+exe/hair
+  rotate: false
+  xy: 320, 432
+  size: 110, 78
+  orig: 110, 78
+  offset: 0, 0
+  index: -1
+exe/staff
+  rotate: false
+  xy: 499, 277
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+exe/upperarmL copy 2
+  rotate: false
+  xy: 95, 67
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+exe/wing
+  rotate: false
+  xy: 131, 233
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+eyeL
+  rotate: false
+  xy: 565, 321
+  size: 14, 23
+  orig: 14, 23
+  offset: 0, 0
+  index: -1
+eyeR
+  rotate: false
+  xy: 95, 106
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+eyebrowL
+  rotate: true
+  xy: 993, 376
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+eyebrowR
+  rotate: true
+  xy: 921, 344
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 131, 283
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+fairy_sr/body
+  rotate: true
+  xy: 421, 273
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+fairy_sr/bow
+  rotate: true
+  xy: 994, 455
+  size: 55, 28
+  orig: 55, 28
+  offset: 0, 0
+  index: -1
+fairy_sr/cloak
+  rotate: false
+  xy: 423, 350
+  size: 78, 71
+  orig: 78, 71
+  offset: 0, 0
+  index: -1
+fairy_sr/cloak_inside
+  rotate: true
+  xy: 247, 227
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+fairy_sr/cloakbehind
+  rotate: false
+  xy: 229, 183
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1
+fairy_sr/mu
+  rotate: false
+  xy: 169, 427
+  size: 149, 83
+  orig: 149, 83
+  offset: 0, 0
+  index: -1
+fairy_sr/mu2
+  rotate: true
+  xy: 884, 376
+  size: 52, 59
+  orig: 52, 59
+  offset: 0, 0
+  index: -1
+fairy_sr/staff
+  rotate: false
+  xy: 343, 370
+  size: 78, 60
+  orig: 78, 60
+  offset: 0, 0
+  index: -1
+fairy_sr/upperarmL copy
+  rotate: false
+  xy: 269, 188
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+fairy_sr/wing
+  rotate: false
+  xy: 2, 2
+  size: 66, 39
+  orig: 66, 39
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 169, 361
+  size: 95, 64
+  orig: 95, 64
+  offset: 0, 0
+  index: -1
+kinh
+  rotate: true
+  xy: 581, 348
+  size: 73, 41
+  orig: 73, 41
+  offset: 0, 0
+  index: -1
+legL
+  rotate: true
+  xy: 857, 345
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 943, 350
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+lowerarm_L
+  rotate: false
+  xy: 95, 43
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+lowerarm_r
+  rotate: false
+  xy: 581, 324
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+spark1
+  rotate: true
+  xy: 1013, 393
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+spark2
+  rotate: true
+  xy: 328, 236
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+tayL
+  rotate: false
+  xy: 994, 429
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+tayR
+  rotate: false
+  xy: 993, 403
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+upperarmL
+  rotate: true
+  xy: 818, 345
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+upperarmR
+  rotate: true
+  xy: 882, 344
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+wing
+  rotate: true
+  xy: 185, 119
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1

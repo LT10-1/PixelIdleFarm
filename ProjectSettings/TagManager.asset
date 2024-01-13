@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - cashicon
+  - supercashicon
+  - effect
+  - sandcashicon
+  - sakuracashicon
+  - grasscashicon
+  - grass_skill_icon
+  - sand_skill_icon
+  - sakura_skill_icon
+  - chest_icon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - GameController
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: "Default"
+    uniqueID: 0
+    locked: 0
+  - name: "Underground"
+    uniqueID: 314175941
+    locked: 0
+  - name: "Mine"
+    uniqueID: 3924807887
+    locked: 0
+  - name: "Surface"
+    uniqueID: 1483541631
+    locked: 0
+  - name: "Coin"
+    uniqueID: 2313150623
+    locked: 0
+  - name: "Tutorial"
+    uniqueID: 1010172231
+    locked: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81702d6dc5ace2442fdc7dae0715986, type: 3}
+  m_Name: "CollectibleChest"
+  m_EditorClassIdentifier: 
+  Params:
+  - ChestID: 0
+    PartsInChest: 20
+    DifferentPartsAmount: 4
+    SuperCashCost: 400
+  - ChestID: 1
+    PartsInChest: 40
+    DifferentPartsAmount: 6
+    SuperCashCost: 800
+  - ChestID: 2
+    PartsInChest: 100
+    DifferentPartsAmount: 9
+    SuperCashCost: 2300
+  - ChestID: 3
+    PartsInChest: 200
+    DifferentPartsAmount: 12
+    SuperCashCost: 4800

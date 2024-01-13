@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 0401ed9b164af4ac00dcfacd2cdf7011, type: 3}
+  m_Name: "resource"
+  m_EditorClassIdentifier: 
+  hashCode: 1917421418
+  material: {fileID: 2100000, guid: 345f411b661f41c8bd00b619ac48af4a, type: 2}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 363
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "sunstone"
+    hashCode: -967100629
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300028, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 1
+    x: 144
+    y: 363
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "ruby"
+    hashCode: 4120604
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300022, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 2
+    x: 288
+    y: 363
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "moonstone"
+    hashCode: -68434880
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300016, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 3
+    x: 432
+    y: 363
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "emerald"
+    hashCode: 1062597206
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300010, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 4
+    x: 576
+    y: 363
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "coal"
+    hashCode: 3533697
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300004, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 5
+    x: 0
+    y: 212
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "sapphire"
+    hashCode: 784113892
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300026, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 6
+    x: 144
+    y: 212
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "platinum"
+    hashCode: 42153078
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300020, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 7
+    x: 288
+    y: 212
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "amber"
+    hashCode: 118776185
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300000, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 8
+    x: 432
+    y: 212
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "diamond"
+    hashCode: 1223160164
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300008, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 9
+    x: 576
+    y: 212
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "amethyst"
+    hashCode: -837899541
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300002, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 10
+    x: 0
+    y: 61
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "sakura"
+    hashCode: 163289247
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300024, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 11
+    x: 144
+    y: 61
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "obsidian"
+    hashCode: 215067253
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300018, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 12
+    x: 288
+    y: 61
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "gold"
+    hashCode: 3668640
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300012, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 13
+    x: 432
+    y: 61
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "crystal"
+    hashCode: -1744894110
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300006, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  - id: 14
+    x: 576
+    y: 61
+    width: 142
+    height: 149
+    xOffset: 0
+    yOffset: 112
+    xAdvance: 142
+    scale: 1.5
+    name: "jade"
+    hashCode: 3846474
+    unicode: 0
+    pivot: {x: -71, y: 74.5}
+    sprite: {fileID: 21300014, guid: 577a9eb9e2d6461ba366b7e44ba9c81a, type: 3}
+  fallbackSpriteAssets: []

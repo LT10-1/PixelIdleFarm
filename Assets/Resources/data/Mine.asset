@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768abdc64ffc5142394458c7359da038, type: 3}
+  m_Name: "Mine"
+  m_EditorClassIdentifier: 
+  Params:
+  - PrestigeCount: 0
+    MineNumber: 0
+    Cost: 0
+    Factor: 1
+    SuperCashGained: 100
+  - PrestigeCount: 0
+    MineNumber: 1
+    Cost: 7.68E+19
+    Factor: 3
+    SuperCashGained: 100
+  - PrestigeCount: 0
+    MineNumber: 2
+    Cost: 6.14E+23
+    Factor: 6
+    SuperCashGained: 100
+  - PrestigeCount: 0
+    MineNumber: 3
+    Cost: 2.45E+29
+    Factor: 10
+    SuperCashGained: 100
+  - PrestigeCount: 0
+    MineNumber: 4
+    Cost: 2.45E+35
+    Factor: 14
+    SuperCashGained: 100
+  - PrestigeCount: 1
+    MineNumber: 0
+    Cost: 1.88894659314786E+22
+    Factor: 4
+    SuperCashGained: 200
+  - PrestigeCount: 1
+    MineNumber: 1
+    Cost: 1.54742504910673E+26
+    Factor: 8
+    SuperCashGained: 200
+  - PrestigeCount: 1
+    MineNumber: 2
+    Cost: 2.84851576559724E+33
+    Factor: 12
+    SuperCashGained: 200
+  - PrestigeCount: 1
+    MineNumber: 3
+    Cost: 1.65973543494477E+41
+    Factor: 17
+    SuperCashGained: 200
+  - PrestigeCount: 1
+    MineNumber: 4
+    Cost: 1.61603092915657E+55
+    Factor: 24
+    SuperCashGained: 200
+  - PrestigeCount: 2
+    MineNumber: 0
+    Cost: 3.4359738368E+45
+    Factor: 20
+    SuperCashGained: 500
+  - PrestigeCount: 2
+    MineNumber: 1
+    Cost: 1.32468131465956E+65
+    Factor: 28
+    SuperCashGained: 500
+  - PrestigeCount: 2
+    MineNumber: 2
+    Cost: 2.15341282137536E+68
+    Factor: 33
+    SuperCashGained: 500
+  - PrestigeCount: 2
+    MineNumber: 3
+    Cost: 1.2310107564115E+71
+    Factor: 38
+    SuperCashGained: 500
+  - PrestigeCount: 2
+    MineNumber: 4
+    Cost: 4.52747104911259E+75
+    Factor: 48
+    SuperCashGained: 500
+  - PrestigeCount: 3
+    MineNumber: 0
+    Cost: 2.95431270655083E+66
+    Factor: 30
+    SuperCashGained: 200
+  - PrestigeCount: 3
+    MineNumber: 1
+    Cost: 1.11229009008559E+73
+    Factor: 42
+    SuperCashGained: 200
+  - PrestigeCount: 3
+    MineNumber: 2
+    Cost: 1.66016197950438E+77
+    Factor: 52
+    SuperCashGained: 200
+  - PrestigeCount: 3
+    MineNumber: 3
+    Cost: 1.0336380909073E+79
+    Factor: 57
+    SuperCashGained: 200
+  - PrestigeCount: 3
+    MineNumber: 4
+    Cost: 1.07006904423598E+83
+    Factor: 70
+    SuperCashGained: 200
+  - PrestigeCount: 4
+    MineNumber: 0
+    Cost: 2.48063644451341E+74
+    Factor: 45
+    SuperCashGained: 200
+  - PrestigeCount: 4
+    MineNumber: 1
+    Cost: 9.33952363343007E+80
+    Factor: 63
+    SuperCashGained: 200
+  - PrestigeCount: 4
+    MineNumber: 2
+    Cost: 1.39398185609206E+85
+    Factor: 78
+    SuperCashGained: 200
+  - PrestigeCount: 4
+    MineNumber: 3
+    Cost: 1.12831485502887E+87
+    Factor: 86
+    SuperCashGained: 200
+  - PrestigeCount: 4
+    MineNumber: 4
+    Cost: 1E+90
+    Factor: 100
+    SuperCashGained: 200

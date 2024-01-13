@@ -1,0 +1,41 @@
+
+Continent_2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 4
+  rotate: false
+  xy: 149, 125
+  size: 85, 38
+  orig: 85, 38
+  offset: 0, 0
+  index: -1
+banhxevangg
+  rotate: false
+  xy: 2, 109
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+banhxexanh
+  rotate: true
+  xy: 149, 165
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1
+dayduoi
+  rotate: true
+  xy: 2, 11
+  size: 96, 152
+  orig: 96, 152
+  offset: 0, 0
+  index: -1
+daytren
+  rotate: false
+  xy: 156, 2
+  size: 22, 121
+  orig: 22, 121
+  offset: 0, 0
+  index: -1
