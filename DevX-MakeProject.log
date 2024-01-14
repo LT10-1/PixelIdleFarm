@@ -1,0 +1,380 @@
+Name: Seven Idle Dwarfs_4.1_Apkpure.apk
+UnityVersion: 2017.2.1p2
+IL2CPP: False
+Export scene&prefab with assynk
+Export assrts with assynk
+Scene analize:SuperCashUI.prefab
+GameObject: 1791312448825823479 !!!!  link to missed asset: {FileID: 1791312450721648902} tag: 1791312450721648902}
+Bad links count: 1
+Scene analize:CoinUI.prefab
+GameObject: 1791312448825823480 !!!!  link to missed asset: {FileID: 1791312450721648895} tag: 1791312450721648895}
+Bad links count: 1
+[129: PlayerSettings] string.size 1818391920 > 10_000_000 \macAppStoreCategory, buf.Position=336
+129: PlayerSettings pathID: 1
+
+Ba.Warning: pos: 336 != len: 635 for: {fileID: 0 (globalgamemanagers), pathID: 1, m_Name: , type: PlayerSettings}
+55: PhysicsManager pathID: 10
+
+Ba.Warning: pos: 64 != len: 182 for: {fileID: 0 (globalgamemanagers), pathID: 10, m_Name: , type: PhysicsManager}
+[19: Physics2DSettings] is_break_read2: Array \m_LayerCollisionMatrix\Array [data, item_size:4] bytes_size=1028 > buffer.len-pos=132
+19: Physics2DSettings pathID: 17
+
+Ba.Warning: pos: 80 != len: 212 for: {fileID: 0 (globalgamemanagers), pathID: 17, m_Name: , type: Physics2DSettings}
+[141: BuildSettings] string.size 1498047146 > 10_000_000 \m_Version, buf.Position=148
+141: BuildSettings pathID: 11
+
+Ba.Warning: pos: 148 != len: 24432 for: {fileID: 0 (globalgamemanagers), pathID: 11, m_Name: , type: BuildSettings}
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ARGB_RAW.GetRGBA(Int32 x, Int32 y)
+   at ARGB_RAW.ToPNG()
+   at as.TextureManager. 
+   
+
+  
+
+ 
+ 
+ ()
+Line: 1
+IL_0001:   
+ 
+    
+ 
+
+
+
+ 
+System.InvalidOperationException: Stack empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at DevXCMethodData. 
+    
+
+ 
+ 
+ 
+
+
+(  
+ 
+    
+ 
+
+
+
+
+  ,   
+ 
+   
+ 
+  
+
+   
+,   
+ 
+   
+ 
+  
+
+    , Boolean&  
+
+, Object&  
+ )
+Line: 1
+IL_0001:   
+ 
+    
+ 
+
+
+
+ 
+System.InvalidOperationException: Stack empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at DevXCMethodData. 
+    
+
+ 
+ 
+ 
+
+
+(  
+ 
+    
+ 
+
+
+
+
+  ,   
+ 
+   
+ 
+  
+
+   
+,   
+ 
+   
+ 
+  
+
+    , Boolean&  
+
+, Object&  
+ )
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Missed: for UnityEngine.dll/UnityEngine/GUISkin
+Make Script DB
+Make Scripts
+Code decompile: Apple.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Apple.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Apple.dll- prepare classes, count: 4
+Apple.dll - decompiled
+Code decompile: Assembly-CSharp-firstpass.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Assembly-CSharp-firstpass.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Assembly-CSharp-firstpass.dll- prepare classes, count: 235
+Assembly-CSharp-firstpass.dll - decompiled
+Code decompile: Assembly-CSharp.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Assembly-CSharp.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Assembly-CSharp.dll- prepare classes, count: 296
+Assembly-CSharp.dll - decompiled
+Code decompile: ChannelPurchase.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: ChannelPurchase.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+ChannelPurchase.dll- prepare classes, count: 6
+ChannelPurchase.dll - decompiled
+Code decompile: DOTween.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: DOTween.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+DOTween.dll- prepare classes, count: 88
+DOTween.dll - decompiled
+Code decompile: DOTween43.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: DOTween43.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+DOTween43.dll- prepare classes, count: 2
+DOTween43.dll - decompiled
+Code decompile: DOTween46.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: DOTween46.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+DOTween46.dll- prepare classes, count: 3
+DOTween46.dll - decompiled
+Code decompile: DOTween50.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: DOTween50.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+DOTween50.dll- prepare classes, count: 2
+DOTween50.dll - decompiled
+Code decompile: Facebook.Unity.Android.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Facebook.Unity.Android.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Facebook.Unity.Android.dll- prepare classes, count: 2
+Facebook.Unity.Android.dll - decompiled
+Code decompile: Facebook.Unity.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Facebook.Unity.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Facebook.Unity.dll- prepare classes, count: 104
+Facebook.Unity.dll - decompiled
+Code decompile: Facebook.Unity.Gameroom.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Facebook.Unity.Gameroom.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Facebook.Unity.Gameroom.dll- prepare classes, count: 2
+Facebook.Unity.Gameroom.dll - decompiled
+Code decompile: Facebook.Unity.IOS.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Facebook.Unity.IOS.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Facebook.Unity.IOS.dll- prepare classes, count: 2
+Facebook.Unity.IOS.dll - decompiled
+Code decompile: Facebook.Unity.Settings.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Facebook.Unity.Settings.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Facebook.Unity.Settings.dll- prepare classes, count: 2
+Facebook.Unity.Settings.dll - decompiled
+Code decompile: FacebookNamedPipeClient.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: FacebookNamedPipeClient.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+FacebookNamedPipeClient.dll- prepare classes, count: 19
+FacebookNamedPipeClient.dll - decompiled
+Code decompile: FacebookStore.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: FacebookStore.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+FacebookStore.dll- prepare classes, count: 3
+FacebookStore.dll - decompiled
+Code decompile: Firebase.Analytics.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Firebase.Analytics.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Firebase.Analytics.dll- prepare classes, count: 4
+Firebase.Analytics.dll - decompiled
+Code decompile: Firebase.App.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Firebase.App.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Firebase.App.dll- prepare classes, count: 28
+Firebase.App.dll - decompiled
+Code decompile: Firebase.Messaging.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Firebase.Messaging.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Firebase.Messaging.dll- prepare classes, count: 7
+Firebase.Messaging.dll - decompiled
+Code decompile: Firebase.Platform.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Firebase.Platform.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Firebase.Platform.dll- prepare classes, count: 36
+Firebase.Platform.dll - decompiled
+Code decompile: Google.MiniJson.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Google.MiniJson.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Google.MiniJson.dll- prepare classes, count: 2
+Google.MiniJson.dll - decompiled
+Code decompile: NestedPrefabs.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: NestedPrefabs.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+NestedPrefabs.dll- prepare classes, count: 22
+NestedPrefabs.dll - decompiled
+Code decompile: Newtonsoft.Json.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Newtonsoft.Json.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Newtonsoft.Json.dll- prepare classes, count: 228
+Newtonsoft.Json.dll - decompiled
+Code decompile: Purchasing.Common.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Purchasing.Common.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Purchasing.Common.dll- prepare classes, count: 7
+Purchasing.Common.dll - decompiled
+Code decompile: Security.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Security.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Security.dll- prepare classes, count: 43
+Security.dll - decompiled
+Code decompile: Stores.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Stores.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Stores.dll- prepare classes, count: 103
+Stores.dll - decompiled
+Code decompile: TextMeshPro-2017.3-1.0.56-Runtime.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: TextMeshPro-2017.3-1.0.56-Runtime.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+TextMeshPro-2017.3-1.0.56-Runtime.dll- prepare classes, count: 92
+TextMeshPro-2017.3-1.0.56-Runtime.dll - decompiled
+Code decompile: Tizen.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Tizen.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Tizen.dll- prepare classes, count: 4
+Tizen.dll - decompiled
+Code decompile: Unity.Compat.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Unity.Compat.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Unity.Compat.dll- prepare classes, count: 14
+Unity.Compat.dll - decompiled
+Code decompile: Unity.Tasks.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: Unity.Tasks.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+Unity.Tasks.dll- prepare classes, count: 13
+Unity.Tasks.dll - decompiled
+Code decompile: UnityEngine.Analytics.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: UnityEngine.Analytics.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+UnityEngine.Analytics.dll- prepare classes, count: 3
+UnityEngine.Analytics.dll - decompiled
+Code decompile: UnityEngine.ParticlesLegacyModule.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: UnityEngine.ParticlesLegacyModule.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+UnityEngine.ParticlesLegacyModule.dll- prepare classes, count: 9
+UnityEngine.ParticlesLegacyModule.dll - decompiled
+Code decompile: UnityEngine.WebModule.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: UnityEngine.WebModule.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+UnityEngine.WebModule.dll- prepare classes, count: 7
+UnityEngine.WebModule.dll - decompiled
+Code decompile: UnityStore.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: UnityStore.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+UnityStore.dll- prepare classes, count: 8
+UnityStore.dll - decompiled
+Code decompile: winrt.dll, class_name=*, type=DecompilerFi
+Check for DeObfuscate: winrt.dll
+DecompilerFi.exe begin decomplile
+DecompilerFi.exe end process
+winrt.dll- prepare classes, count: 6
+winrt.dll - decompiled
+Make plugins
+Check for DeObfuscate: Apple.dll
+Check for DeObfuscate: Assembly-CSharp-firstpass.dll
+Convert UnityAssembly To Plugin: from Assembly-CSharp-firstpass to PluginAs-CSharp-firstpass
+Check for DeObfuscate: Assembly-CSharp.dll
+Convert UnityAssembly To Plugin: from Assembly-CSharp to PluginAs-CSharp
+Check for DeObfuscate: ChannelPurchase.dll
+Check for DeObfuscate: DOTween.dll
+Check for DeObfuscate: DOTween43.dll
+Check for DeObfuscate: DOTween46.dll
+Check for DeObfuscate: DOTween50.dll
+Check for DeObfuscate: Facebook.Unity.Android.dll
+Check for DeObfuscate: Facebook.Unity.dll
+Check for DeObfuscate: Facebook.Unity.Gameroom.dll
+Check for DeObfuscate: Facebook.Unity.IOS.dll
+Check for DeObfuscate: Facebook.Unity.Settings.dll
+Check for DeObfuscate: FacebookNamedPipeClient.dll
+Check for DeObfuscate: FacebookStore.dll
+Check for DeObfuscate: Firebase.Analytics.dll
+Check for DeObfuscate: Firebase.App.dll
+Check for DeObfuscate: Firebase.Messaging.dll
+Check for DeObfuscate: Firebase.Platform.dll
+Check for DeObfuscate: Google.MiniJson.dll
+Check for DeObfuscate: NestedPrefabs.dll
+Check for DeObfuscate: Newtonsoft.Json.dll
+Check for DeObfuscate: Purchasing.Common.dll
+Check for DeObfuscate: Security.dll
+Check for DeObfuscate: Stores.dll
+Check for DeObfuscate: TextMeshPro-2017.3-1.0.56-Runtime.dll
+Check for DeObfuscate: Tizen.dll
+Check for DeObfuscate: Unity.Compat.dll
+Check for DeObfuscate: Unity.Tasks.dll
+Check for DeObfuscate: UnityEngine.Analytics.dll
+Check for DeObfuscate: UnityEngine.ParticlesLegacyModule.dll
+Check for DeObfuscate: UnityEngine.WebModule.dll
+Check for DeObfuscate: UnityStore.dll
+Check for DeObfuscate: winrt.dll
+Make binStreamingAssets
+Write scrip db
+IsContains_TextMeshPro
+MakeUnityProject - end, dir: C:\UnityProject\SevenDwarf2020
