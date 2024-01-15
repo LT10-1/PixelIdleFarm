@@ -1,31 +1,13 @@
 fileFormatVersion: 2
-guid: 03f693473b194b7d8dbfe86aabf3a9db
+guid: fb753b2ffb230414aa45f4e3555e2f3e
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: mine_level_0
-  - first:
-      213: 21300002
-    second: mine_level_1
-  - first:
-      213: 21300004
-    second: mine_level_2
-  - first:
-      213: 21300006
-    second: mine_level_3
-  - first:
-      213: 21300008
-    second: mine_level_4
-  - first:
-      213: 21300010
-    second: mine_level_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -48,7 +30,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 4
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -57,21 +39,21 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -81,9 +63,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -95,19 +77,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -138,7 +107,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,7 +118,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
@@ -176,204 +145,110 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mine_level_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 402
-        width: 540
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3d63caa39924d24d9edc87e5b31fcd9
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mine_level_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 670
-        width: 540
-        height: 134
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba12041c89a40b24692961350ddb2ed7
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mine_level_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 268
-        width: 540
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: f63f2b8f037a68542968d779df61eade
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mine_level_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 536
-        width: 540
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: f854981d05ac91f4d8626c15466c01a6
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mine_level_5
+      name: SlimeJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 540
-        height: 134
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff1f020ee13460479153227eb0e3b69
-      internalID: 21300010
+      spriteID: b0fd8156d9abe394c8f678428e93c9c8
+      internalID: -1838954938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_4
+      name: SlimeJump_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 134
-        width: 540
-        height: 134
+        x: 16
+        y: 0
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bac34c3a045504d8a1d7c7665dbdc5
-      internalID: 21300008
+      spriteID: e27328ff262b9f64b90460fa8b9db142
+      internalID: -1789032437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeJump_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706c2a3aaa78a4845a8f0f9f43f7c17f
+      internalID: 212279948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeJump_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c22c1c278f49d4cad715272bfcdb2e
+      internalID: 1762150347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeJump_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5bbb34297702347ad1eef6bb3a6335
+      internalID: 2117600664
       vertices: []
       indices: 
       edges: []
@@ -381,7 +256,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b42f7b5bf2091174ca0819db2b67cac9
+    spriteID: a57a835f97b01534eb4107bd0a4e52d0
     internalID: 0
     vertices: []
     indices: 
@@ -389,12 +264,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mine_level_0: 21300000
-      mine_level_1: 21300002
-      mine_level_2: 21300004
-      mine_level_3: 21300006
-      mine_level_4: 21300008
-      mine_level_5: 21300010
+      SlimeJump_0: -1838954938
+      SlimeJump_1: -1789032437
+      SlimeJump_2: 212279948
+      SlimeJump_3: 1762150347
+      SlimeJump_4: 2117600664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
