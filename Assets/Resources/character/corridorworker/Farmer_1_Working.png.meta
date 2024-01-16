@@ -1,31 +1,13 @@
 fileFormatVersion: 2
-guid: 03f693473b194b7d8dbfe86aabf3a9db
+guid: e8394868c5f08324d901e372c92914c2
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: mine_level_0
-  - first:
-      213: 21300002
-    second: mine_level_1
-  - first:
-      213: 21300004
-    second: mine_level_2
-  - first:
-      213: 21300006
-    second: mine_level_3
-  - first:
-      213: 21300008
-    second: mine_level_4
-  - first:
-      213: 21300010
-    second: mine_level_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -48,7 +30,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 4
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -57,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -66,12 +48,12 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -81,9 +63,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -95,19 +77,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -138,7 +107,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,7 +118,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
@@ -176,204 +145,257 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mine_level_2
+      name: '!$MV_Farmer_1_Dig_0'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 411
-        width: 540
-        height: 125
+        x: 24
+        y: 288
+        width: 48
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3d63caa39924d24d9edc87e5b31fcd9
-      internalID: 21300004
+      spriteID: b6d88116272748140b76049ffee4505e
+      internalID: -1525571238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_0
+      name: '!$MV_Farmer_1_Dig_1'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 679
-        width: 540
-        height: 125
-      alignment: 9
+        x: 120
+        y: 309
+        width: 48
+        height: 69
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba12041c89a40b24692961350ddb2ed7
-      internalID: 21300000
+      spriteID: 1bf18885b8c334f42a6f45c4775ae2f7
+      internalID: 906026075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_3
+      name: '!$MV_Farmer_1_Dig_2'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 277
-        width: 540
-        height: 125
+        x: 216
+        y: 309
+        width: 48
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f63f2b8f037a68542968d779df61eade
-      internalID: 21300006
+      spriteID: 8dffff4500ed7044c88b29463cdb0ffe
+      internalID: -2104396857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_1
+      name: '!$MV_Farmer_1_Dig_3'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 546
-        width: 540
-        height: 125
+        x: 12
+        y: 192
+        width: 60
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f854981d05ac91f4d8626c15466c01a6
-      internalID: 21300002
+      spriteID: 0b5e598ebf975084c9560bc688cba725
+      internalID: 1623438207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_5
+      name: '!$MV_Farmer_1_Dig_4'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 9
-        width: 540
-        height: 125
+        x: 120
+        y: 192
+        width: 54
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff1f020ee13460479153227eb0e3b69
-      internalID: 21300010
+      spriteID: e2ce28ce5494c704bb6e8fc7d103ef7a
+      internalID: 2083901761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mine_level_4
+      name: '!$MV_Farmer_1_Dig_5'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 143
-        width: 540
-        height: 125
+        x: 210
+        y: 192
+        width: 66
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -419, y: -89.5}
-        - {x: -419, y: 89.5}
-        - {x: 419, y: -89.5}
-      - - {x: 419, y: 89.5}
-        - {x: 419, y: -89.5}
-        - {x: -419, y: 89.5}
-      physicsShape:
-      - - {x: -419, y: 89.5}
-        - {x: -419, y: -89.5}
-        - {x: 419, y: -89.5}
-        - {x: 419, y: 89.5}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bac34c3a045504d8a1d7c7665dbdc5
-      internalID: 21300008
+      spriteID: 38d04a7a9b4907149add6bd3a0e0e11d
+      internalID: 802322793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_7'
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 96
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0f59f577d4ab042924cac46ab24cad
+      internalID: -1676962551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_8'
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c282ff818355aac4faa8d48be244b71f
+      internalID: -1334380175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_10'
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 96
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b02b9d3f6ee65b409c23d89d1febd3e
+      internalID: -1956193815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_11'
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 6
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b2d2f795b06f44fbf9473bb7f110f0
+      internalID: 1726335394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_12'
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 6
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a4dfe16ccc68f4f8e54267eba4ee99
+      internalID: -1289780256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$MV_Farmer_1_Dig_13'
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 6
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f733cbb4ad3414591ada1f84ceaf62
+      internalID: -34465464
       vertices: []
       indices: 
       edges: []
@@ -381,7 +403,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b42f7b5bf2091174ca0819db2b67cac9
+    spriteID: e80121968b8e5274ba48fcff7dd48eda
     internalID: 0
     vertices: []
     indices: 
@@ -389,12 +411,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mine_level_0: 21300000
-      mine_level_1: 21300002
-      mine_level_2: 21300004
-      mine_level_3: 21300006
-      mine_level_4: 21300008
-      mine_level_5: 21300010
+      '!$MV_Farmer_1_Dig_0': -1525571238
+      '!$MV_Farmer_1_Dig_1': 906026075
+      '!$MV_Farmer_1_Dig_10': -1956193815
+      '!$MV_Farmer_1_Dig_11': 1726335394
+      '!$MV_Farmer_1_Dig_12': -1289780256
+      '!$MV_Farmer_1_Dig_13': -34465464
+      '!$MV_Farmer_1_Dig_2': -2104396857
+      '!$MV_Farmer_1_Dig_3': 1623438207
+      '!$MV_Farmer_1_Dig_4': 2083901761
+      '!$MV_Farmer_1_Dig_5': 802322793
+      '!$MV_Farmer_1_Dig_6': -252179437
+      '!$MV_Farmer_1_Dig_7': -1676962551
+      '!$MV_Farmer_1_Dig_8': -1334380175
+      '!$MV_Farmer_1_Dig_9': -49839233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

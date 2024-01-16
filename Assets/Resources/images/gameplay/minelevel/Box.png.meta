@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,10 +63,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,14 +90,14 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -110,7 +110,7 @@ TextureImporter:
     overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -123,7 +123,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -136,7 +136,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -162,7 +162,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -175,7 +175,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: tvOS
     maxTextureSize: 2048
@@ -196,12 +196,12 @@ TextureImporter:
       name: Box_3
       rect:
         serializedVersion: 2
-        x: 290.0761
-        y: 0
-        width: 86.84776
-        height: 49.92388
-      alignment: 9
-      pivot: {x: -0.05844838, y: 0}
+        x: 97
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -43.49999, y: -24.96194}
@@ -233,12 +233,12 @@ TextureImporter:
       name: Box_1
       rect:
         serializedVersion: 2
-        x: 96.04291
-        y: 0
-        width: 91.88097
-        height: 51.92388
-      alignment: 9
-      pivot: {x: -0.01135064, y: 0}
+        x: 33
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -45.98339, y: -2.961939}
@@ -277,12 +277,12 @@ TextureImporter:
       name: Box_4
       rect:
         serializedVersion: 2
-        x: 384.0761
-        y: 0
-        width: 86.84776
-        height: 51.97325
-      alignment: 9
-      pivot: {x: -0.04693398, y: 0}
+        x: 129
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -43.49999, y: -25.98662}
@@ -327,12 +327,12 @@ TextureImporter:
       name: Box_2
       rect:
         serializedVersion: 2
-        x: 195.0761
-        y: 0
-        width: 86.84776
-        height: 49.92388
-      alignment: 9
-      pivot: {x: -0.05844855, y: 0}
+        x: 65
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -43.50001, y: -24.96194}
@@ -364,12 +364,12 @@ TextureImporter:
       name: Box_0
       rect:
         serializedVersion: 2
-        x: 1.042908
-        y: 0
-        width: 91.88097
-        height: 51.92388
-      alignment: 9
-      pivot: {x: -0.01135064, y: 0}
+        x: 1
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -45.98339, y: -2.961939}
@@ -408,12 +408,12 @@ TextureImporter:
       name: Box_5
       rect:
         serializedVersion: 2
-        x: 475
-        y: 1.026751
-        width: 95
-        height: 50.97325
-      alignment: 9
-      pivot: {x: 0, y: -0.02014294}
+        x: 161
+        y: 1
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -47.5, y: -0.5133743}
@@ -449,7 +449,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c2ae7de8ebbb694aad2ac8232fd46a6
     internalID: 0
     vertices: []
     indices: 
