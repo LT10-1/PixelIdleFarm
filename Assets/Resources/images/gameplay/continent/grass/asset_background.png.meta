@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 9
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +165,7 @@ TextureImporter:
       - {x: 540, y: 403}
     bones: []
     spriteID: a26b96782e2c5dc45bd161a04d205e33
-    internalID: 0
+    internalID: 179243685
     vertices: []
     indices: 
     edges: []
