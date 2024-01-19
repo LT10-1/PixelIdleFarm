@@ -124,6 +124,27 @@ LightmapSettings:
   m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: b96a1101fa1da784abd018e220fbb391,
     type: 2}
+--- !u!95 &1310905578
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791312448825823485}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a2f2b640adb89342812724bdb9aa2c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1791312448825823479
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,6 +265,7 @@ GameObject:
   - component: {fileID: 1791312452567142682}
   - component: {fileID: 1791312452533588240}
   - component: {fileID: 1791312450721648934}
+  - component: {fileID: 1310905578}
   m_Layer: 5
   m_Name: Background
   m_TagString: 
@@ -1104,8 +1126,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1440, y: 1920}
+  m_AnchoredPosition: {x: 1564, y: 0}
+  m_SizeDelta: {x: 4617, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1791312452567142683
 RectTransform:
