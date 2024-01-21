@@ -10635,7 +10635,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8563886744191263766}
   - component: {fileID: 5263513533735909998}
-  - component: {fileID: 2561747440301870788}
   m_Layer: 0
   m_Name: Manager_Farmer_01_0
   m_TagString: Untagged
@@ -10710,27 +10709,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2561747440301870788
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5906923498956122878}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7ea489dcf730ad44a81befb85c7b86e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7682245731468479632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10776,6 +10754,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1902647136732893476}
     m_Modifications:
+    - target: {fileID: 809850680599903720, guid: 1a35f8373cc757e4db0b2c52c67de931,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 921972290544106543, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
       propertyPath: m_Name
@@ -10953,6 +10936,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1902647136732893476}
     m_Modifications:
+    - target: {fileID: 809850680599903720, guid: 1a35f8373cc757e4db0b2c52c67de931,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 921972290544106543, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
       propertyPath: m_Name
@@ -11221,6 +11209,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1902647136732893476}
     m_Modifications:
+    - target: {fileID: 809850680599903720, guid: 1a35f8373cc757e4db0b2c52c67de931,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 921972290544106543, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
       propertyPath: m_Name
