@@ -101,12 +101,6 @@ public class CorridorLevelController : BaseMineController
 
 	public bool IsActiveMine => MineGroup.activeSelf;
 
-	[Header("Material")]
-	[SerializeField] public List<Material> Materials;
-
-	[Header("Box")]
-	public GameObject BoxStop;
-
 	public void Init(int tier)
 	{
 		CorridorModel = base.MineController.MineModel.GetCorridorModel(tier);
@@ -525,7 +519,7 @@ public class CorridorLevelController : BaseMineController
 		{
 			changeSandSprite = false;
 			List<string> list = DATA_RESOURCES.IMAGE.GAMEPLAY_CONTINENT_RESOURCE_SAND(base.CurrentContinent);
-			//SandRenderer.sprite = BaseController.LoadSprite(list[UnityEngine.Random.Range(0, list.Count)]);
+			SandRenderer.sprite = BaseController.LoadSprite(list[UnityEngine.Random.Range(0, list.Count)]);
 		}
 	}
 
@@ -557,51 +551,51 @@ public class CorridorLevelController : BaseMineController
 
 	public void UpdateCorridorLength()
 	{
-		//if (!CONST.TEST_MODE_VIDEO_AD)
-		//{
-		//	if (SandStartX == 0f)
-		//	{
-		//		Vector3 position = SandRenderer.transform.position;
-		//		SandStartX = position.x;
-		//	}
-		//	float num = 0.8f + 0.8f * (float)CorridorModel.GetFullLengthMined() / 8f;
-		//	Transform transform = SandRenderer.transform;
-		//	float x = SandStartX + num - 0.8f;
-		//	Vector3 localPosition = SandRenderer.transform.localPosition;
-		//	transform.localPosition = new Vector3(x, localPosition.y);
-		//	for (int i = 0; i < CorridorWorkerControllers.Count; i++)
-		//	{
-		//		CorridorWorkerController corridorWorkerController = CorridorWorkerControllers[i];
-		//		corridorWorkerController.corridorLength = num;
-		//	}
-		//}
+		if (!CONST.TEST_MODE_VIDEO_AD)
+		{
+			if (SandStartX == 0f)
+			{
+				Vector3 position = SandRenderer.transform.position;
+				SandStartX = position.x;
+			}
+			float num = 0.8f + 0.8f * (float)CorridorModel.GetFullLengthMined() / 8f;
+			Transform transform = SandRenderer.transform;
+			float x = SandStartX + num - 0.8f;
+			Vector3 localPosition = SandRenderer.transform.localPosition;
+			transform.localPosition = new Vector3(x, localPosition.y);
+			for (int i = 0; i < CorridorWorkerControllers.Count; i++)
+			{
+				CorridorWorkerController corridorWorkerController = CorridorWorkerControllers[i];
+				corridorWorkerController.corridorLength = num;
+			}
+		}
 	}
 
 	public void InitSandByTier()
 	{
-		//float num = 1f - (float)CorridorModel.Tier * 0.02f;
-		//SandRenderer.color = new Color(num, num, num);
-		//int num2 = 3;
-		//float num3 = 1.31999993f;
-		//float num4 = 4f;
-		//float num5 = num3 / (float)num2;
-		//Vector2 vector = new Vector2((float)CorridorModel.Tier * 0.001f + 0.1f, (float)CorridorModel.Tier * 0.001f + 0.15f);
-		//float num6 = (0f - num3) / 2f + num3 / 4f;
-		//float num7 = (0f - num4) / 2f;
-		//for (int i = 0; i < num2; i++)
-		//{
-		//	int num8 = UnityEngine.Random.Range(3 + CorridorModel.Tier / 3, 5 + CorridorModel.Tier / 3);
-		//	float num9 = num4 / (float)num8;
-		//	for (int j = 0; j < num8; j++)
-		//	{
-		//		GameObject gameObject = base.MineController.CreateMineGameObject();
-		//		gameObject.transform.SetParent(SandRenderer.transform);
-		//		gameObject.GetComponent<SpriteRenderer>().sortingOrder += 3;
-		//		gameObject.transform.localEulerAngles = Vector3.forward * UnityEngine.Random.Range(0, 360);
-		//		gameObject.transform.localScale = Vector3.one * UnityEngine.Random.Range(vector.x, vector.y);
-		//		gameObject.transform.localPosition = new Vector3(vector.x + num7 + (float)j * num9 + UnityEngine.Random.Range(0f, num9 / 2f), num6 + (float)i * num5 - UnityEngine.Random.Range(0f, num5 / 2f));
-		//	}
-		//}
+		float num = 1f - (float)CorridorModel.Tier * 0.02f;
+		SandRenderer.color = new Color(num, num, num);
+		int num2 = 3;
+		float num3 = 1.31999993f;
+		float num4 = 4f;
+		float num5 = num3 / (float)num2;
+		Vector2 vector = new Vector2((float)CorridorModel.Tier * 0.001f + 0.1f, (float)CorridorModel.Tier * 0.001f + 0.15f);
+		float num6 = (0f - num3) / 2f + num3 / 4f;
+		float num7 = (0f - num4) / 2f;
+		for (int i = 0; i < num2; i++)
+		{
+			int num8 = UnityEngine.Random.Range(3 + CorridorModel.Tier / 3, 5 + CorridorModel.Tier / 3);
+			float num9 = num4 / (float)num8;
+			for (int j = 0; j < num8; j++)
+			{
+				GameObject gameObject = base.MineController.CreateMineGameObject();
+				gameObject.transform.SetParent(SandRenderer.transform);
+				gameObject.GetComponent<SpriteRenderer>().sortingOrder += 3;
+				gameObject.transform.localEulerAngles = Vector3.forward * UnityEngine.Random.Range(0, 360);
+				gameObject.transform.localScale = Vector3.one * UnityEngine.Random.Range(vector.x, vector.y);
+				gameObject.transform.localPosition = new Vector3(vector.x + num7 + (float)j * num9 + UnityEngine.Random.Range(0f, num9 / 2f), num6 + (float)i * num5 - UnityEngine.Random.Range(0f, num5 / 2f));
+			}
+		}
 	}
 
 	public void InitManager()
