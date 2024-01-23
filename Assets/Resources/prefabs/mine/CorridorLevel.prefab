@@ -10784,6 +10784,7 @@ GameObject:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   serializedVersion: 6
   m_Component:
@@ -11371,5 +11372,7 @@ MonoBehaviour:
 >>>>>>> parent of 296e117 (Revert "Merge branch 'main' of https://github.com/LT10-1/PixelIdleFarm")
 =======
 >>>>>>> parent of fd17a62 (Merge branch 'main' of https://github.com/LT10-1/PixelIdleFarm)
+=======
+>>>>>>> parent of 90b08ef (worker state)
 =======
 >>>>>>> parent of 90b08ef (worker state)
