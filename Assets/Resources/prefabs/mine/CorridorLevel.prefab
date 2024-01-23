@@ -10724,12 +10724,36 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!95 &2561747440301870788
 Animator:
   serializedVersion: 5
 <<<<<<< HEAD
 =======
 =======
+=======
+--- !u!95 &2561747440301870788
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906923498956122878}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e7ea489dcf730ad44a81befb85c7b86e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+>>>>>>> parent of b9df6c0 (Update Manager Basic)
 --- !u!1 &7682245731468479632
 GameObject:
 >>>>>>> parent of 296e117 (Revert "Merge branch 'main' of https://github.com/LT10-1/PixelIdleFarm")
@@ -11005,6 +11029,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1902647136732893476}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     - target: {fileID: 809850680599903720, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
@@ -11012,6 +11037,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
 >>>>>>> parent of 296e117 (Revert "Merge branch 'main' of https://github.com/LT10-1/PixelIdleFarm")
+=======
+>>>>>>> parent of b9df6c0 (Update Manager Basic)
     - target: {fileID: 921972290544106543, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
       propertyPath: m_Name
@@ -11281,6 +11308,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1902647136732893476}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     - target: {fileID: 809850680599903720, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
@@ -11288,6 +11316,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
 >>>>>>> parent of 296e117 (Revert "Merge branch 'main' of https://github.com/LT10-1/PixelIdleFarm")
+=======
+>>>>>>> parent of b9df6c0 (Update Manager Basic)
     - target: {fileID: 921972290544106543, guid: 1a35f8373cc757e4db0b2c52c67de931,
         type: 3}
       propertyPath: m_Name
