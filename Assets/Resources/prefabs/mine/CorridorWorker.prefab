@@ -139,8 +139,6 @@ MonoBehaviour:
   inAnimation: 0
   digAnimation: dig
   CorridorWorkerState: 0
-  _moveTime: 1
-  _workTime: 0.5
 --- !u!61 &1791312449832456443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -244,7 +242,7 @@ Transform:
   m_GameObject: {fileID: 3321091646838409312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.204, y: 0.069, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
